@@ -101,12 +101,12 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-5 lg:max-w-none lg:pt-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Optimize and Increase Your Site's Engagement Rate with Publisher
+              Optimize and Increase Your Site’s Engagement Rate with Publisher
               Analytics
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               Our Publisher Analytics tool leverages A/B testing to help you
-              optimize your site's engagement. Understanding what keeps your
+              optimize your site’s engagement. Understanding what keeps your
               audience intrigued, interested, and invested has never been
               easier.
             </p>

@@ -239,7 +239,7 @@ export function Pricing() {
             Affordable pricing for publishers of all sizes.
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            Whether you're a small, medium, or large publisher, we offer
+            Whether you’re a small, medium, or large publisher, we offer
             tailored plans to optimize your content and boost engagement.
           </p>
         </div>

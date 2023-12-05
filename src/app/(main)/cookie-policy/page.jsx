@@ -107,7 +107,7 @@ export default function CookiePolicy() {
                     <td class="border px-4 py-2">cookieyes-consent</td>
                     <td class="border px-4 py-2">1 year</td>
                     <td class="border px-4 py-2">
-                      CookieYes sets this cookie to remember users' consent
+                      CookieYes sets this cookie to remember user’s consent
                       preferences so that their preferences are respected on
                       their subsequent visits to this site. It does not collect
                       or store any personal information of the site visitors.
@@ -210,7 +210,7 @@ export default function CookiePolicy() {
                     <td class="border px-4 py-2">
                       Installed by Google Analytics, _gid cookie stores
                       information on how visitors use a website, while also
-                      creating an analytics report of the website's performance.
+                      creating an analytics report of the website’s performance.
                       Some of the data that are collected include the number of
                       visitors, their source, and the pages they visit
                       anonymously.
@@ -233,7 +233,7 @@ export default function CookiePolicy() {
                     <td class="border px-4 py-2">
                       The _ga cookie, installed by Google Analytics, calculates
                       visitor, session and campaign data and also keeps track of
-                      site usage for the site's analytics report. The cookie
+                      site usage for the site’s analytics report. The cookie
                       stores information anonymously and assigns a randomly
                       generated number to recognize unique visitors.
                     </td>
@@ -252,7 +252,7 @@ export default function CookiePolicy() {
                     <td class="border px-4 py-2">2 minutes</td>
                     <td class="border px-4 py-2">
                       Hotjar sets this cookie to know whether a user is included
-                      in the data sampling defined by the site's daily session
+                      in the data sampling defined by the site’s daily session
                       limit.
                     </td>
                   </tr>
@@ -263,7 +263,7 @@ export default function CookiePolicy() {
                     <td class="border px-4 py-2">2 minutes</td>
                     <td class="border px-4 py-2">
                       Hotjar sets this cookie to know whether a user is included
-                      in the data sampling defined by the site's pageview limit.
+                      in the data sampling defined by the site’s pageview limit.
                     </td>
                   </tr>
                   <tr>
@@ -359,7 +359,7 @@ export default function CookiePolicy() {
                     <td class="border px-4 py-2">past</td>
                     <td class="border px-4 py-2">
                       The test_cookie is set by doubleclick.net and is used to
-                      determine if the user's browser supports cookies.
+                      determine if the user’s browser supports cookies.
                     </td>
                   </tr>
                   <tr>

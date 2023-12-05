@@ -234,7 +234,7 @@ export function SecondaryFeatures() {
             Introducing Our Core Features
           </h2>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-            Enhance your content's impact with our core features. Utilize A/B
+            Enhance your content’s impact with our core features. Utilize A/B
             testing for your images, titles, and descriptions with Publisher
             Analytics. Uncover the most engaging variations and drive your
             content strategy to new heights.

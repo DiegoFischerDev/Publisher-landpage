@@ -121,7 +121,7 @@ export default function About() {
           <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 xl:grid xl:max-w-none xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-16 xl:gap-y-6">
               <h1 className="max-w-2xl text-4xl font-medium tracking-tight text-gray-900 lg:col-span-2 xl:col-auto">
-                We're an international team dedicated to enhancing publisher
+                We’re an international team dedicated to enhancing publisher
                 performance through cutting-edge analytics & AI.
               </h1>
               <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">

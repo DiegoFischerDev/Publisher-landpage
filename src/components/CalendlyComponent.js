@@ -25,7 +25,7 @@ export default function CalendlyComponent() {
 
           <p className="mt-4 text-lg leading-8 text-gray-600">
             Seize the opportunity to discover how Publisher Analytics can help
-            you increase your site's engagement rate. Schedule your cost-free,
+            you increase your site’s engagement rate. Schedule your cost-free,
             no-obligation consultation with{' '}
             <Link
               style={{ color: '#06b6d4' }}

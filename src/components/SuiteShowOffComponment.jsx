@@ -15,7 +15,7 @@ export default function SuiteShowOffComponent() {
           <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
             <div>
               <p>
-                Gain unparalleled insight into your content's performance by
+                Gain unparalleled insight into your content’s performance by
                 drilling down into individual user actions, page views, and
                 conversion metrics.
               </p>

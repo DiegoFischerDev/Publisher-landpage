@@ -42,9 +42,9 @@ export default function Terms() {
               </p>
               <p>
                 Publisher Analytics is a tool that leverages A/B testing to help
-                you optimize your site's engagement. It provides insights into
+                you optimize your site’s engagement. It provides insights into
                 what keeps your audience intrigued, interested, and invested,
-                making the process of increasing your site's engagement rate
+                making the process of increasing your site’s engagement rate
                 easier.
               </p>
             </li>
@@ -85,7 +85,7 @@ export default function Terms() {
                 time and in our sole discretion. If we make changes to these
                 Terms, we will provide notice of such changes, such as by
                 sending an email notification, providing notice through the
-                Services, or updating the "Last Updated" date at the beginning
+                Services, or updating the ’Last Updated’ date at the beginning
                 of these Terms.
               </p>
             </li>
@@ -96,7 +96,7 @@ export default function Terms() {
                 </strong>
               </p>
               <p>
-                Publisher Analytics is provided "as is". NPAW and its suppliers
+                Publisher Analytics is provided ’as is’. NPAW and its suppliers
                 and licensors hereby disclaim all warranties of any kind,
                 express or implied, including, without limitation, the
                 warranties of merchantability, fitness for a particular purpose

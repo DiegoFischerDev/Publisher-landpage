@@ -38,7 +38,7 @@ function HeroImageSlide() {
       nextSlide()
     }, 5000)
     return () => clearTimeout(slideTimeout.current)
-  }, [currentIndex])
+  },[currentIndex])
 
   return (
     <div className="overflow-hidden">

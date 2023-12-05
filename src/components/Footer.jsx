@@ -28,7 +28,7 @@ export function Footer() {
                 <Link href="/">
                   <p className="text-base font-semibold">Publisher Analytics</p>
                   <p className="mt-1 text-sm">
-                    A/B testing to help you optimize your site's engagement.
+                    A/B testing to help you optimize your site’s engagement.
                   </p>
                 </Link>
               </div>

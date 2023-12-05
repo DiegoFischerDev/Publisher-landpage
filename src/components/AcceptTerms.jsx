@@ -29,11 +29,11 @@ export default function AcceptTerms() {
         </div>
         <div className="ml-3 text-sm leading-6">
           <label htmlFor="comments" className="font-medium text-gray-900">
-            By selecting 'I have read and agree to the terms
+            By selecting ’I have read and agree to the terms
           </label>{' '}
           <span id="comments-description" className="text-gray-500">
             <span className="sr-only">
-              By selecting 'I have read and agree to the terms{' '}
+              By selecting ’I have read and agree to the terms{' '}
             </span>
             so you always know you confirm that you have reviewed the Terms of
             Use for Publisher Analytics, understand them, and agree to comply

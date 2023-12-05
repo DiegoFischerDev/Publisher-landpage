@@ -217,7 +217,7 @@ export default function SupportLevelAgreement() {
             within NPAW’s Immediate Control (as defined below).
           </p>
           <p>
-            For purposes hereof, "Availability” or “Available” means the Service
+            For purposes hereof, ’Availability’ or ’Available’ means the Service
             is available for use with full access through Customer’s devices (as
             detailed herein). If any abusive or improper Data collecting or
             ingesting through API NPAW Service is detected, which may affect
