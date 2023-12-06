@@ -149,7 +149,7 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                         </div>
                         <div className="ml-3 text-sm leading-6">
                           <label className="font-medium text-gray-900">
-                            I agree to the <Link className='text-[#06b6d4]' href='/service-level-agreement'>Service Level Agreement</Link>
+                            I agree to the <Link className='text-[#06b6d4]' href='/support-level-agreement'>Support Level Agreement</Link>
                           </label>{' '}
                         </div>
                       </div>

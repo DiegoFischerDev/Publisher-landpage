@@ -6,8 +6,8 @@ export const metadata = {
 
 export default function SupportLevelAgreement() {
   return (
-    <div className="mt-10 flex justify-center bg-white px-6 py-12 lg:px-8 lg:py-24">
-      <div className="mt-10 w-[90%] max-w-3xl text-base text-gray-700">
+    <div className="flex justify-center bg-white px-6 py-12 lg:px-8 lg:py-24">
+      <div className="mt-20 w-[90%] max-w-3xl text-base text-gray-700">
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Support Level Agreement for Publisher Analytics
         </h1>
