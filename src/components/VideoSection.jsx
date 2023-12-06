@@ -21,7 +21,7 @@ const features = [
 export default function VideoSection() {
 
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div id="videoSection" className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl sm:text-center flex flex-col items-center">
           <p className="mt-2 text-3xl font-medium  tracking-tight text-gray-900 sm:text-4xl ">

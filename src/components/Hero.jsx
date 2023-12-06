@@ -93,6 +93,13 @@ function goToPricing() {
     }
 }
 
+function goToVideoSection() {
+  const targetElement = document.getElementById("videoSection")
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+
 export function Hero() {
 
   return (
@@ -110,13 +117,20 @@ export function Hero() {
               audience intrigued, interested, and invested has never been
               easier.
             </p>
-            <div className="mt-8 flex justify-center sm:justify-start flex-wrap gap-x-2 sm:gap-x-6 gap-y-4">
+            <div className="mt-8 flex justify-center sm:justify-start flex-wrap gap-x-6 sm:gap-x-6 gap-y-4">
               <Button
                 onClick={goToPricing}
                 variant="outline"
-                className="rounded-md w-[50%] sm:w-36 bg-black px-1 sm:px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600"
+                className="rounded-md w-36 bg-black px-1 sm:px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600"
               >
                 Sign up now
+              </Button>
+              <Button
+                onClick={goToVideoSection}
+                variant="outline"
+                className="rounded-md w-36 flex sm:hidden items-center px-1 sm:px-3.5"
+              >
+                <span className="mr-1.5 sm:mr-2.5">How it works</span>
               </Button>
               <Button
                 href="/"

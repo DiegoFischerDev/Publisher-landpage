@@ -5,6 +5,7 @@ import { TextField } from '@/components/Fields'
 import { Button } from '@/components/Button'
 import StripeController from '@/components/controllers/StripeController'
 import publisherLogo from '../../public/assets/small-publisher-logo.png'
+import Link from 'next/link'
 
 export default function RegisterDialog({ isOpen, onClose, activePeriod, price, planName }) {
 
@@ -148,7 +149,7 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                         </div>
                         <div className="ml-3 text-sm leading-6">
                           <label className="font-medium text-gray-900">
-                            I agree to the <a className='text-[#06b6d4]' href='http://localhost:3000/service-level-agreement'>Service Level Agreement</a>
+                            I agree to the <Link className='text-[#06b6d4]' href='/service-level-agreement'>Service Level Agreement</Link>
                           </label>{' '}
                         </div>
                       </div>
@@ -167,7 +168,7 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                         </div>
                         <div className="ml-3 text-sm leading-6">
                           <label className="font-medium text-gray-900">
-                            I agree to the <a className='text-[#06b6d4]' href='http://localhost:3000/privacy-policy'>Privacy Policy</a>
+                            I agree to the <Link className='text-[#06b6d4]' href='/privacy-policy'>Privacy Policy</Link>
                           </label>{' '}
                         </div>
                       </div>
@@ -186,7 +187,7 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                         </div>
                         <div className="ml-3 text-sm leading-6">
                           <label className="font-medium text-gray-900">
-                            I agree to the <a className='text-[#06b6d4]' href='http://localhost:3000/payment-terms'>Terms of Service</a>
+                            I agree to the <Link className='text-[#06b6d4]' href='/payment-terms'>Terms of Service</Link>
                           </label>{' '}
                         </div>
                       </div>
