@@ -72,8 +72,9 @@ export default function SupportLevelAgreement() {
                     <td className="px-3 py-4 text-sm text-gray-500">Next software update</td>
                   </tr>
               </tbody>
+              <div className='w-[767px] h-3 bg-[#06b6d4] absolute left-0 bottom-0 z-10'></div>
+              <div className='w-[100px] block sm:hidden rounded-full h-1 bg-gray-100 absolute left-2 bottom-1 z-20'></div>
               </table>
-              <div className='w-[700px] h-3 bg-[#06b6d4] absolute left-0 bottom-0'></div>
               </div>
 
 
@@ -118,8 +119,9 @@ export default function SupportLevelAgreement() {
                     <td className="px-3 py-4 text-sm text-gray-500">Next software update</td>
                   </tr>
               </tbody>
+              <div className='w-[767px] h-3 bg-[#06b6d4] absolute left-0 bottom-0 z-10'></div>
+              <div className='w-[100px] block sm:hidden rounded-full h-1 bg-gray-100 absolute left-2 bottom-1 z-20'></div>
               </table>
-              <div className='w-[700px] h-3 bg-[#06b6d4] absolute left-0 bottom-0'></div>
               </div>
 
               <strong>
@@ -163,8 +165,9 @@ export default function SupportLevelAgreement() {
                     <td className="px-3 py-4 text-sm text-gray-500">Next software update</td>
                   </tr>
               </tbody>
+              <div className='w-[767px] h-3 bg-[#06b6d4] absolute left-0 bottom-0 z-10'></div>
+              <div className='w-[100px] block sm:hidden rounded-full h-1 bg-gray-100 absolute left-2 bottom-1 z-20'></div>
               </table>
-              <div className='w-[700px] h-3 bg-[#06b6d4] absolute left-0 bottom-0'></div>
               </div>
             </li>
           </ul>
@@ -231,8 +234,9 @@ export default function SupportLevelAgreement() {
               <td className="px-3 py-4 text-sm text-gray-500">99.97%</td>
             </tr>
           </tbody>
+          <div className='w-[600px] h-3 bg-[#06b6d4] absolute left-0 bottom-0 z-10'></div>
+          <div className='w-[100px] block sm:hidden rounded-full h-1 bg-gray-100 absolute left-2 bottom-1 z-20'></div>
         </table>
-        <div className='w-full h-3 bg-[#06b6d4] absolute left-0 bottom-0'></div>
       </div>
     </div>
   </div>
