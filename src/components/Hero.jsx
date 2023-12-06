@@ -110,18 +110,18 @@ export function Hero() {
               audience intrigued, interested, and invested has never been
               easier.
             </p>
-            <div className="mt-8 flex flex-wrap gap-x-2 sm:gap-x-6 gap-y-4">
+            <div className="mt-8 flex justify-center sm:justify-start flex-wrap gap-x-2 sm:gap-x-6 gap-y-4">
               <Button
                 onClick={goToPricing}
                 variant="outline"
-                className="rounded-md bg-black px-1 sm:px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600"
+                className="rounded-md w-[50%] sm:w-36 bg-black px-1 sm:px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600"
               >
                 Sign up now
               </Button>
               <Button
                 href="/"
                 variant="outline"
-                className="rounded-md flex items-center px-1 sm:px-3.5"
+                className="rounded-md hidden sm:flex items-center px-1 sm:px-3.5"
               >
                 
                 <span className="mr-1.5 sm:mr-2.5">Download Chrome Extension</span>

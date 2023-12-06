@@ -103,26 +103,25 @@ function Plan({
   button,
   features,
   activePeriod,
-  logomarkClassName,
   featured = false,
   onRegisterClick,
 }) {
   const handleButtonClick = () => {
-    if (button.href === "contact") {
-      const targetElement = document.getElementById("contact")
+    if (button.href === 'contact') {
+      const targetElement = document.getElementById('contact')
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: 'smooth' })
       }
     } else {
-      onRegisterClick()
+      onRegisterClick(price, name)
     }
   }
 
   return (
     <section
       className={clsx(
-        'flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
-        featured ? 'order-first bg-gray-900 lg:order-none' : 'bg-white',
+        'flex order-none flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
+        featured ? 'order-first bg-gray-900' : 'bg-white',
       )}
     >
       <h3
@@ -215,13 +214,15 @@ function Plan({
 }
 
 export function Pricing() {
-  const [activePeriod, setActivePeriod] = useState('Monthly')
-  const [price, setPrice] = useState('$99')
-  const [planName, setPlanName] = useState('Smaller publishers')
-  const [isDialogOpen, setIsDialogOpen] = useState(false)
+  const [activePeriod, setActivePeriod] = useState('Monthly');
+  const [price, setPrice] = useState('$99');
+  const [planName, setPlanName] = useState('Smaller publishers');
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
-  const handleRegisterClick = () => {
-    setIsDialogOpen((prevState) => !prevState)
+  const handleRegisterClick = (price, name) => {
+    setPrice(price[activePeriod]);
+    setPlanName(name);
+    setIsDialogOpen(true);
   }
 
   return (
@@ -296,18 +297,14 @@ export function Pricing() {
               key={plan.name}
               {...plan}
               activePeriod={activePeriod}
-              onRegisterClick={() => {
-                setPrice(plan.price[activePeriod])
-                setPlanName(plan.name)
-                handleRegisterClick()
-              }}
+              onRegisterClick={handleRegisterClick}
             />
           ))}
         </div>
       </Container>
       <RegisterDialog
         isOpen={isDialogOpen}
-        onClose={handleRegisterClick}
+        onClose={()=>{setIsDialogOpen(false)}}
         activePeriod={activePeriod}
         price={price}
         planName={planName}

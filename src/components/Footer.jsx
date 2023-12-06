@@ -27,13 +27,15 @@ export function Footer() {
               <div className="ml-10">
                 <Link href="/">
                   <p className="text-base font-semibold">Publisher Analytics</p>
-                  <p className="mt-1 text-sm">
-                    A/B testing to help you optimize your site’s engagement.
+                  <p className="mt-1 max-w-sm text-sm">
+                    On-page real-time analytics and A/B testing designed to
+                    significantly boost your site's engagement rate. Proudly a
+                    part of the innovative NPAW analytics family.
                   </p>
                 </Link>
               </div>
             </div>
-            <nav className="mt-11 flex flex-col lg:flex-row justify-between gap-2 lg:gap-8 px-10">
+            <nav className="mt-4 lg:mt-10 flex flex-col justify-between gap-2 lg:gap-8 px-10">
               <FooterNavLinks />
             </nav>
           </div>
@@ -56,7 +58,7 @@ export function Footer() {
             </div>
           </div> */}
         </div>
-        <div className="flex w-full flex-col items-center border-t border-gray-200 pb-12 pt-8 md:pt-6">
+        <div className="flex mt-2 w-full flex-col items-center border-t border-gray-200 pb-12 pt-8 md:pt-6">
           {/* <form className="flex w-full justify-center md:w-auto">
             <TextField
               type="email"
@@ -71,7 +73,7 @@ export function Footer() {
               <span className="lg:hidden">Join newsletter</span>
             </Button>
           </form> */}
-          <p className="mt-6 text-sm text-gray-500 md:mt-0">
+          <p className="mt-0 text-sm text-gray-500">
             &copy; Copyright {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>

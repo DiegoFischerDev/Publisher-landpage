@@ -64,12 +64,6 @@ const features = [
     icon: CurrencyDollarIcon,
   },
   {
-    name: 'Improve user experience',
-    description:
-      'Deliver content that resonates with your audience and improves their experience.',
-    icon: UserIcon,
-  },
-  {
     name: 'Data-driven decisions',
     description: 'Make informed decisions based on data and analytics.',
     icon: DatabaseIcon,
