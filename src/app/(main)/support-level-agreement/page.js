@@ -37,7 +37,7 @@ export default function SupportLevelAgreement() {
                   Tier 1 - SILVER Support{' '}
                 </p>
               </strong>
-              <div className='overflow-x-auto-mobile'>
+              <div className='overflow-x-auto bg-gray-100 p-4'>
               <table className="w-[700px] divide-y divide-gray-300">
               <thead>
                 <tr>
@@ -83,7 +83,7 @@ export default function SupportLevelAgreement() {
                   Tier 2 - GOLD Support{' '}
                 </p>
               </strong>
-              <div className='overflow-x-auto-mobile'>
+              <div className='overflow-x-auto bg-gray-100 p-4'>
               <table className="w-[700px] divide-y divide-gray-300">
               <thead>
                 <tr>
@@ -128,7 +128,7 @@ export default function SupportLevelAgreement() {
                   Tier 3 - PLATINUM Support{' '}
                 </p>
               </strong>
-              <div className='overflow-x-auto-mobile'>
+              <div className='overflow-x-auto bg-gray-100 p-4'>
               <table className="w-[700px] divide-y divide-gray-300">
               <thead>
                 <tr>
@@ -211,7 +211,7 @@ export default function SupportLevelAgreement() {
       Service Level Uptime & Availability Matrix
     </h2>
     <div className="mt-4">
-      <div className='overflow-x-auto-mobile max-w-[600px]'>
+      <div className='overflow-x-auto bg-gray-100 p-4 max-w-[600px]'>
         <table className="w-[500px] divide-y divide-gray-300">
           <thead>
             <tr>
