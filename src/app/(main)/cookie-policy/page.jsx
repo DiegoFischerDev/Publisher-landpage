@@ -225,7 +225,7 @@ export default function CookiePolicy() {
         </td>
       </tr>
       <tr>
-        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_gat_UA-73717038-1</td>
+        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_gat_UA- 73717038-1</td>
         <td className="px-3 py-4 text-sm text-gray-500">1 minute</td>
         <td className="px-3 py-4 text-sm text-gray-500">
           A variation of the _gat cookie set by Google Analytics and
@@ -256,7 +256,7 @@ export default function CookiePolicy() {
         </td>
       </tr>
       <tr>
-        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_hjIncludedInSessionSample</td>
+        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_hjIncluded In Session Sample</td>
         <td className="px-3 py-4 text-sm text-gray-500">2 minutes</td>
         <td className="px-3 py-4 text-sm text-gray-500">
           Hotjar sets this cookie to know whether a user is included
@@ -265,7 +265,7 @@ export default function CookiePolicy() {
         </td>
       </tr>
       <tr>
-        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_hjIncludedInPageviewSample</td>
+        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_hjIncluded In Pageview Sample</td>
         <td className="px-3 py-4 text-sm text-gray-500">2 minutes</td>
         <td className="px-3 py-4 text-sm text-gray-500">
           Hotjar sets this cookie to know whether a user is included
@@ -273,7 +273,7 @@ export default function CookiePolicy() {
         </td>
       </tr>
       <tr>
-        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_hjAbsoluteSessionInProgress</td>
+        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_hjAbsolute Session In Progress</td>
         <td className="px-3 py-4 text-sm text-gray-500">30 minutes</td>
         <td className="px-3 py-4 text-sm text-gray-500">
           Hotjar sets this cookie to detect the first pageview
@@ -302,14 +302,14 @@ export default function CookiePolicy() {
         </td>
       </tr>
       <tr>
-        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_ga_89GV07RGC5</td>
+        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_ga_ 89GV07RGC5</td>
         <td className="px-3 py-4 text-sm text-gray-500">2 months 1 day 12 hours</td>
         <td className="px-3 py-4 text-sm text-gray-500">
           This cookie is installed by Google Analytics.
         </td>
       </tr>
       <tr>
-        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_ga_0TX134F8MW</td>
+        <td className="py-4 pl-4 pr-3 text-sm text-gray-900">_ga_ 0TX134F8MW</td>
         <td className="px-3 py-4 text-sm text-gray-500">2 years</td>
         <td className="px-3 py-4 text-sm text-gray-500">
           This cookie is installed by Google Analytics.
