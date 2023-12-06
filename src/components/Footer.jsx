@@ -29,7 +29,7 @@ export function Footer() {
                   <p className="text-base font-semibold">Publisher Analytics</p>
                   <p className="mt-1 max-w-sm text-sm">
                     On-page real-time analytics and A/B testing designed to
-                    significantly boost your site's engagement rate. Proudly a
+                    significantly boost your site`s engagement rate. Proudly a
                     part of the innovative NPAW analytics family.
                   </p>
                 </Link>
