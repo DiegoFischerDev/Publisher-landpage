@@ -2,19 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar {
+.overflow-x-auto-mobile {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .overflow-x-auto-mobile::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 8px;
   }
   
-  ::-webkit-scrollbar-thumb {
+  .overflow-x-auto-mobile::-webkit-scrollbar-thumb {
     border-radius: 4px;
     background-color: rgba(169, 169, 169, 0.5); /* Cor cinza mais clara */
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
-  }
-
-  .overflow-x-auto-mobile {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    background-color: red;
   }
