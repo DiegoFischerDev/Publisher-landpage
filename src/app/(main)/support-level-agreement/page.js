@@ -73,6 +73,7 @@ export default function SupportLevelAgreement() {
                   </tr>
               </tbody>
               </table>
+              <div className='w-[700px] h-3 bg-[#06b6d4] absolute left-0 bottom-0'></div>
               </div>
 
 
@@ -118,6 +119,7 @@ export default function SupportLevelAgreement() {
                   </tr>
               </tbody>
               </table>
+              <div className='w-[700px] h-3 bg-[#06b6d4] absolute left-0 bottom-0'></div>
               </div>
 
               <strong>
@@ -162,6 +164,7 @@ export default function SupportLevelAgreement() {
                   </tr>
               </tbody>
               </table>
+              <div className='w-[700px] h-3 bg-[#06b6d4] absolute left-0 bottom-0'></div>
               </div>
             </li>
           </ul>
