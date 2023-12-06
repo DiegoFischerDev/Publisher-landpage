@@ -19,9 +19,9 @@ export function MobileScrollBar({width}) {
   }, [])
 
  if (isMobile) return (
-    <div className=''>
-      <div style={{width: `${width}px`}} className="h-3 flex items-center pl-1 bg-gray-200">
-        <div className="block h-2 w-[100px] rounded-full bg-gray-100 sm:hidden"></div>
+    <div className='absolute left-0 bottom-0'>
+      <div style={{width: `${width}px`}} className="h-4 flex items-center pl-1 bg-[#fafafa] border border-l-0 border-solid border-gray-200">
+        <div className="block h-2 w-[100px] rounded-full bg-[#c7c7c7] sm:hidden"></div>
       </div>
       
     </div>
