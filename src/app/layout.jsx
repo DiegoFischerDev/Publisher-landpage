@@ -61,8 +61,9 @@ export default function RootLayout({ children }) {
         <CookieConsent />
       </body>
 
-      <Script src="https://publisheranalytics.ai/publisher-sdk"></Script>
+      <Script id="npaw-sdk" src="https://publisheranalytics.ai/publisher-sdk"></Script>
       <Script
+      id="npaw-plugin"
         dangerouslySetInnerHTML={{
           __html: `
                 document.addEventListener('DOMContentLoaded', function() {
