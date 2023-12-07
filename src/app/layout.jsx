@@ -66,12 +66,10 @@ export default function RootLayout({ children }) {
       id="npaw-plugin"
         dangerouslySetInnerHTML={{
           __html: `
-                document.addEventListener('DOMContentLoaded', function() {
                   var accountCode = "abdev";
                   var userId = "83068";
                   var sdk = new PublisherAnalyticsSDK(accountCode, userId);
                   sdk.setupExperiments();
-                });
               `,
         }}
       ></Script>
