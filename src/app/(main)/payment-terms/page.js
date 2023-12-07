@@ -43,7 +43,7 @@ export default function PaymentTerms() {
                 customers or end users (“End-Customer”). “NPAW Suite“ means the
                 NPAW Suite software platform, hosted by NPAW and offered in the
                 form of Software as a Service, enabling Customer to upload,
-                process, manage and distribute Customer's Data. “Service Order
+                process, manage and distribute Customer`s Data. “Service Order
                 From“ (SOF) means an NPAW contract by which Services are
                 provided to the Customer. “Services“ means the particular
                 services to be provided to the Customer by NPAW as specified on
