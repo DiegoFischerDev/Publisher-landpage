@@ -1,0 +1,15 @@
+image: atlassian/default-image:4
+
+pipelines:
+  default:
+    - step:
+        name: Build and Push Docker Image
+        deployment: staging
+        services:
+          - docker
+        script:
+          - export IMAGE_NAME=nexus.npaw.com/publisher-analytics-front-page:v$BITBUCKET_BUILD_NUMBER-amd64
+          - export NEXUS_REPO=nexus.npaw.com
+          - echo $NEXUS_PASSWORD | docker login $NEXUS_REPO --username $NEXUS_USERNAME --password-stdin
+          - docker build -t $IMAGE_NAME .
+          - docker push $IMAGE_NAME
