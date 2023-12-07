@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
+import Script from 'next/script'
 
 import '@/styles/tailwind.css'
 import { CookieConsent } from '@/components/CookieConsent'
@@ -59,6 +60,20 @@ export default function RootLayout({ children }) {
         <div className="flex min-h-full flex-col">{children}</div>
         <CookieConsent />
       </body>
+
+      <Script src="https://publisheranalytics.ai/publisher-sdk"></Script>
+      <Script
+        dangerouslySetInnerHTML={{
+          __html: `
+                document.addEventListener('DOMContentLoaded', function() {
+                  var accountCode = "abdev";
+                  var userId = "83068";
+                  var sdk = new PublisherAnalyticsSDK(accountCode, userId);
+                  sdk.setupExperiments();
+                });
+              `,
+        }}
+      ></Script>
     </html>
   )
 }
