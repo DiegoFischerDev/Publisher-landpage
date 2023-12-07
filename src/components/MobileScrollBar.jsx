@@ -5,8 +5,6 @@ import React, { useState, useEffect } from 'react'
 export function MobileScrollBar({width}) {
   const [isMobile, setIsMobile] = useState(true)
 
-  console.log(width)
-
   const checkIsMobile = () => {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera
     return /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(
