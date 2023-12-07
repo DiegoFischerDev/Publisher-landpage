@@ -168,7 +168,7 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                         </div>
                         <div className="ml-3 text-sm leading-6">
                           <label className="font-medium text-gray-900">
-                            I agree to the <Link className='text-[#06b6d4]' href='/privacy-policy'>Privacy Policy</Link>
+                            I agree to the <Link className='text-[#06b6d4]' href='/privacy-policy-addendum'>Privacy Policy</Link>
                           </label>{' '}
                         </div>
                       </div>
