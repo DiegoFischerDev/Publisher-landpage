@@ -36,18 +36,18 @@ export default function PaymentTerms() {
               </p>
               <p>
                 When used in this agreement, the following definitions apply.
-                "Application Data" or “Data” means all data, regardless of
+                “Application Data“ or “Data” means all data, regardless of
                 format or owner, provided or identified to NPAW to be sent or
                 received using NPAW’s Services, and/or Data hosted, stored or
                 cached by NPAW at the direction of Customer or its agents,
-                customers or end users (“End-Customer”). "NPAW Suite" means the
+                customers or end users (“End-Customer”). “NPAW Suite“ means the
                 NPAW Suite software platform, hosted by NPAW and offered in the
                 form of Software as a Service, enabling Customer to upload,
-                process, manage and distribute Customer's Data. "Service Order
-                From" (SOF) means an NPAW contract by which Services are
-                provided to the Customer. "Services" means the particular
+                process, manage and distribute Customer's Data. “Service Order
+                From“ (SOF) means an NPAW contract by which Services are
+                provided to the Customer. “Services“ means the particular
                 services to be provided to the Customer by NPAW as specified on
-                a Service Order Form. "Traffic" means all data sent or received
+                a Service Order Form. “Traffic“ means all data sent or received
                 by or on behalf of Customer using NPAW Service(s). “Execution
                 Date” is the date of signature of the ultimate signatory. “Days”
                 are considered calendar days.
@@ -87,7 +87,7 @@ export default function PaymentTerms() {
                 SOFs executed hereunder. The Initial Term of each SOF will be
                 specified on that document. Upon expiration of the Initial Term,
                 SOFs automatically renew for additional terms of equal length to
-                the Initial Term (each a "Renewal Term") unless either party
+                the Initial Term (each a “Renewal Term“) unless either party
                 notifies the other in writing no less than 30 or 14, as
                 applicable,90 days prior to the end of the Initial Term, or
                 Renewal Term, as applicable, that it will not renew the Service.
@@ -156,7 +156,7 @@ export default function PaymentTerms() {
                 DISCLAIMER OF IMPLIED AND EXPRESS WARRANTIES. Except as
                 expressly provided herein or in any written Service Level
                 Agreement (SLA) applicable to the Service, the Services are
-                provided "AS IS" and Customer’s use of the Services is at
+                provided “AS IS“ and Customer’s use of the Services is at
                 Customer’s sole risk. NPAW DISCLAIMS ALL WARRANTIES, EXPRESS OR
                 IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF
                 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
@@ -171,7 +171,7 @@ export default function PaymentTerms() {
                 setups made to the NPAW Suite accounts may be deleted unless
                 Customer agrees on a SOF prior to conclusion of the trial
                 period. NPAW may terminate the trial at any time at its sole
-                discretion. THE SERVICE IS PROVIDED "AS-IS" AND WITHOUT ANY
+                discretion. THE SERVICE IS PROVIDED “AS-IS“ AND WITHOUT ANY
                 REPRESENTATION OR WARRANTY DURING TRIALS OR OVER DEMO FEATURES.
               </p>
             </li>
@@ -210,7 +210,7 @@ export default function PaymentTerms() {
                 be able to announce the collaboration with the Customer through
                 its social media. Neither party may use the other party’s name,
                 logo, trade name, trademarks and icons (collectively, the
-                "Brands") without prior written agreement. Notwithstanding the
+                “Brands“) without prior written agreement. Notwithstanding the
                 foregoing, each party may use the other party’s name, trade
                 name, trademarks and logos to refer publicly to the other,
                 orally and in writing, as a customer/vendor of the other solely
@@ -271,7 +271,7 @@ export default function PaymentTerms() {
                 and will comply with all applicable laws, policies, and
                 regulations relating to the collection of information from
                 End-Customers. Customer must post a Privacy Policy and that
-                Privacy Policy must provide notice of Customer's use of the
+                Privacy Policy must provide notice of Customer’s use of the
                 Services that are used to collect data. Customer will use
                 commercially reasonable efforts to ensure that an End-Customers
                 is provided with clear and comprehensive information about, and
@@ -421,8 +421,8 @@ export default function PaymentTerms() {
                 provided hereunder are not effective until actually received by
                 the receiving party at the address listed on the SOF. Without
                 limiting the foregoing, submission by the Customer of a service
-                ticket (or "trouble ticket") does not constitute Customer
-                "notice" for purposes of this Agreement. Upon termination by
+                ticket (or “trouble ticket“) does not constitute Customer
+                “notice“ for purposes of this Agreement. Upon termination by
                 Customer for cause, or termination by NPAW in breach/violation
                 of these terms, all amounts prepaid by the Customer for Services
                 not received will immediately be refunded to the Customer and no
