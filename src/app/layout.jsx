@@ -63,13 +63,15 @@ export default function RootLayout({ children }) {
 
       <Script id="npaw-sdk" src="https://publisheranalytics.ai/publisher-sdk"></Script>
       <Script
-      id="npaw-plugin"
+        id="npaw-plugin"
         dangerouslySetInnerHTML={{
           __html: `
-                  var accountCode = "abdev";
-                  var userId = "83068";
-                  var sdk = new PublisherAnalyticsSDK(accountCode, userId);
-                  sdk.setupExperiments();
+                window.addEventListener('load', function() {
+                    var accountCode = "abdev";
+                    var userId = "83068";
+                    var sdk = new PublisherAnalyticsSDK(accountCode, userId);
+                    sdk.setupExperiments();
+                });
               `,
         }}
       ></Script>
