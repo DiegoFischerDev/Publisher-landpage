@@ -87,27 +87,26 @@ function PlayIcon(props) {
 }
 
 function goToPricing() {
-    const targetElement = document.getElementById("pricing")
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' })
-    }
+  const targetElement = document.getElementById('pricing')
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: 'smooth' })
+  }
 }
 
 function goToVideoSection() {
-  const targetElement = document.getElementById("videoSection")
+  const targetElement = document.getElementById('videoSection')
   if (targetElement) {
     targetElement.scrollIntoView({ behavior: 'smooth' })
   }
 }
 
 export function Hero() {
-
   return (
-    <div className="overflow-hidden pb-12 py-48 lg:pb-32 xl:pb-36">
+    <div className="overflow-hidden py-48 pb-12 lg:pb-32 xl:pb-36">
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-5 lg:max-w-none lg:pt-6">
-            <h1 className="text-4xl font-medium tracking-tight text-gray-900">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900">
               Optimize and Increase Your Site’s Engagement Rate with Publisher
               Analytics
             </h1>
@@ -117,30 +116,31 @@ export function Hero() {
               audience intrigued, interested, and invested has never been
               easier.
             </p>
-            <div className="mt-8 flex justify-center sm:justify-start flex-wrap gap-x-6 sm:gap-x-6 gap-y-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-4 sm:justify-start sm:gap-x-6">
               <Button
                 onClick={goToPricing}
                 variant="outline"
-                className="rounded-md w-36 bg-black px-1 sm:px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600"
+                className="w-36 rounded-md bg-black px-1 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 sm:px-3.5"
               >
                 Sign up now
               </Button>
               <Button
                 onClick={goToVideoSection}
                 variant="outline"
-                className="rounded-md w-36 flex sm:hidden items-center px-1 sm:px-3.5"
+                className="flex w-36 items-center rounded-md px-1 sm:hidden sm:px-3.5"
               >
                 <span className="mr-1.5 sm:mr-2.5">How it works</span>
               </Button>
-              <Button
+              {/*  <Button
                 href="/"
                 variant="outline"
-                className="rounded-md hidden sm:flex items-center px-1 sm:px-3.5"
+                className="hidden items-center rounded-md px-1 sm:flex sm:px-3.5"
               >
-                
-                <span className="mr-1.5 sm:mr-2.5">Download Chrome Extension</span>
-                <DownloadIcon width={24} color='gray'/>
-              </Button>
+                <span className="mr-1.5 sm:mr-2.5">
+                  Download Chrome Extension
+                </span>
+                <DownloadIcon width={24} color="gray" />
+              </Button> */}
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-7 lg:row-span-2 lg:mt-0">

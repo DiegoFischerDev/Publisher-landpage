@@ -79,10 +79,10 @@ export default function FaqsSection() {
   return (
     <div className="bg-white">
       <div className="relative isolate z-10 overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14">
-        <div
+        {/*  <div
           className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
           aria-hidden="true"
-        />
+        /> */}
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
           <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">

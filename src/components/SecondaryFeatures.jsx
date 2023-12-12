@@ -23,6 +23,17 @@ const features = [
     icon: HeartIcon,
   },
   {
+    name: 'Data-driven decisions',
+    description: 'Make informed decisions based on data and analytics.',
+    icon: DatabaseIcon,
+  },
+  {
+    name: 'Increase revenue',
+    description:
+      'Maximize your revenue by optimizing your content for engagement.',
+    icon: CurrencyDollarIcon,
+  },
+  {
     name: 'Easy A/B testing',
     description:
       'Test different variations of your content with just a few clicks.',
@@ -40,18 +51,25 @@ const features = [
       'Get detailed insights into the performance of each variation.',
     icon: ChartBarIcon,
   },
+  /* {
+    name: 'Real-time results',
+    description: 'See the results of your A/B tests in real-time.',
+    icon: RefreshIcon,
+  }, */
+  /* {
+    name: 'Detailed analytics',
+    description:
+      'Get detailed insights into the performance of each variation.',
+    icon: ChartBarIcon,
+  },
   {
     name: 'Customizable experiments',
     description: 'Set your own parameters for A/B testing experiments.',
     icon: CogIcon,
   },
-  {
-    name: 'Real-time results',
-    description: 'See the results of your A/B tests in real-time.',
-    icon: RefreshIcon,
-  },
-
-  {
+  
+ */
+  /*  {
     name: 'Save time and effort',
     description:
       'Simplify the A/B testing process and save valuable time and effort.',
@@ -67,7 +85,7 @@ const features = [
     name: 'Data-driven decisions',
     description: 'Make informed decisions based on data and analytics.',
     icon: DatabaseIcon,
-  },
+  }, */
 ]
 
 function DeviceArrowIcon(props) {
@@ -224,7 +242,7 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-3xl sm:text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-gray-900">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Introducing Our Core Features
           </h2>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
@@ -241,13 +259,13 @@ export function SecondaryFeatures() {
           {features.map((feature) => (
             <li
               key={feature.name}
-              className="rounded-2xl border border-gray-200 bg-white p-8 shadow-lg"
+              className="rounded-2xl  bg-white p-8 shadow-lg"
             >
-              <div className='flex items-center'>
-              <feature.icon className="h-8 w-8" color='#06b6d4'/>
-              <h3 className="ml-3 font-semibold text-[#06b6d4]">
-                {feature.name}
-              </h3>
+              <div className="flex items-center">
+                <feature.icon className="h-8 w-8" color="#008e96" />
+                <h3 className="ml-3 font-semibold text-[#008e96]">
+                  {feature.name}
+                </h3>
               </div>
               <p className="mt-2 text-gray-700">{feature.description}</p>
             </li>

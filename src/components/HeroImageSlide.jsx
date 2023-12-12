@@ -38,7 +38,7 @@ function HeroImageSlide() {
       nextSlide()
     }, 5000)
     return () => clearTimeout(slideTimeout.current)
-  },[currentIndex])
+  }, [currentIndex])
 
   return (
     <div className="overflow-hidden">
@@ -56,10 +56,8 @@ function HeroImageSlide() {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className={`mr-5 h-3 w-10 cursor-pointer rounded text-2xl border border-gray-200 duration-1000 ${
-              slideIndex === currentIndex
-                ? 'bg-[#262626]'
-                : 'bg-white'
+            className={` mr-5 h-3 w-10 cursor-pointer rounded border border-gray-200 text-2xl duration-1000 ${
+              slideIndex === currentIndex ? 'bg-[#262626]' : 'bg-white'
             }`}
           ></div>
         ))}

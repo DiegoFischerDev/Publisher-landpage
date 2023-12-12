@@ -56,10 +56,10 @@ export function Header() {
                 <Image
                   src={PublisherAnalyticsLogo}
                   alt="Publisher Analytics Logo"
-                  className="w-16"
+                  style={{ width: '250px' }}
                   unoptimized
                 />
-                <p>Publisher Analytics</p>
+                {/* <p>Publisher Analytics</p> */}
               </div>
             </Link>
             <div className="hidden lg:flex lg:gap-10">
@@ -114,13 +114,23 @@ export function Header() {
                             </MobileNavLink>
                             <MobileNavLink href="/about">About</MobileNavLink>
                             <MobileNavLink href="/faq">FAQs</MobileNavLink>
-                            <MobileNavLink href="/privacy-policy">Privacy Policy</MobileNavLink>
-                            <MobileNavLink href="/cookie-policy">Cookie Policy</MobileNavLink>
-                            <MobileNavLink href="/compliance">Compliance</MobileNavLink>
-                            <MobileNavLink href="/">Documentation</MobileNavLink>
+                            <MobileNavLink href="/privacy-policy">
+                              Privacy Policy
+                            </MobileNavLink>
+                            <MobileNavLink href="/cookie-policy">
+                              Cookie Policy
+                            </MobileNavLink>
+                            <MobileNavLink href="/compliance">
+                              Compliance
+                            </MobileNavLink>
+                            <MobileNavLink href="/">
+                              Documentation
+                            </MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <MobileNavLink href="/#pricing">Sign up</MobileNavLink>
+                            <MobileNavLink href="/#pricing">
+                              Sign up
+                            </MobileNavLink>
                           </div>
                         </Popover.Panel>
                       </>

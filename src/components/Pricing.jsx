@@ -55,7 +55,7 @@ const plans = [
     featured: true,
     price: { Monthly: 'Contact us', Annually: 'Contact us' },
     description:
-      'Unlock the full potential of your engagement strategy with our exclusive VIP plan. Gain unlimited access to advanced features and personalized support to drive unparalleled engagement and maximize your content performance.',
+      'Unlock the full potential of your engagement strategy. Gain access to advanced features and support to drive engagement and maximize your content performance.',
     button: {
       label: 'Contact us',
       href: 'contact',
@@ -120,7 +120,7 @@ function Plan({
   return (
     <section
       className={clsx(
-        'flex order-none flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
+        'order-none flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
         featured ? 'order-first bg-gray-900' : 'bg-white',
       )}
     >
@@ -130,12 +130,12 @@ function Plan({
           featured ? 'text-white' : 'text-gray-900',
         )}
       >
-        <Image
+        {/* <Image
           src={publisherLogo}
           alt="PublisherAnalytics logo"
           className="w-8"
-        />
-        <span className="ml-4">{name}</span>
+        /> */}
+        <span className="text-lg">{name}</span>
       </h3>
       <p
         className={clsx(
@@ -214,15 +214,15 @@ function Plan({
 }
 
 export function Pricing() {
-  const [activePeriod, setActivePeriod] = useState('Monthly');
-  const [price, setPrice] = useState('$99');
-  const [planName, setPlanName] = useState('Smaller publishers');
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [activePeriod, setActivePeriod] = useState('Monthly')
+  const [price, setPrice] = useState('$99')
+  const [planName, setPlanName] = useState('Smaller publishers')
+  const [isDialogOpen, setIsDialogOpen] = useState(false)
 
   const handleRegisterClick = (price, name) => {
-    setPrice(price[activePeriod]);
-    setPlanName(name);
-    setIsDialogOpen(true);
+    setPrice(price[activePeriod])
+    setPlanName(name)
+    setIsDialogOpen(true)
   }
 
   return (
@@ -235,7 +235,7 @@ export function Pricing() {
         <div className="mx-auto max-w-2xl text-center">
           <h2
             id="pricing-title"
-            className="text-3xl font-medium tracking-tight text-gray-900"
+            className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
           >
             Affordable pricing for publishers of all sizes.
           </h2>
@@ -304,7 +304,9 @@ export function Pricing() {
       </Container>
       <RegisterDialog
         isOpen={isDialogOpen}
-        onClose={()=>{setIsDialogOpen(false)}}
+        onClose={() => {
+          setIsDialogOpen(false)
+        }}
         activePeriod={activePeriod}
         price={price}
         planName={planName}

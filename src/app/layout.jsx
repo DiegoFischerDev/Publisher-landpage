@@ -1,9 +1,8 @@
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
-import Script from 'next/script'
-
 import '@/styles/tailwind.css'
 import { CookieConsent } from '@/components/CookieConsent'
+import Script from 'next/script'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -66,13 +65,13 @@ export default function RootLayout({ children }) {
         id="npaw-plugin"
         dangerouslySetInnerHTML={{
           __html: `
-                window.addEventListener('load', function() {
-                    var accountCode = "abdev";
-                    var userId = "83068";
-                    var sdk = new PublisherAnalyticsSDK(accountCode, userId);
-                    sdk.setupExperiments();
-                });
-              `,
+            window.addEventListener('load', function() {
+                var accountCode = "abdev";
+                var userId = "83068";
+                var sdk = new PublisherAnalyticsSDK(accountCode, userId);
+                sdk.setupExperiments();
+            });
+          `,
         }}
       ></Script>
     </html>

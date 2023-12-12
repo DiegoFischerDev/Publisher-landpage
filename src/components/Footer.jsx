@@ -1,8 +1,8 @@
-
 import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { FooterNavLinks } from '@/components/FooterNavLinks'
-
+import PublisherAnalyticsLogo from '@/images/PubisherAnalyticslogo.png'
+import Image from 'next/image'
 function QrCodeBorder(props) {
   return (
     <svg viewBox="0 0 96 96" fill="none" aria-hidden="true" {...props}>
@@ -22,11 +22,21 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-y-12 pb-6 pt-16 lg:flex-row lg:items-center lg:py-16">
           <div>
             <div className="flex items-center text-gray-900">
-              {/* <Logomark className="h-10 w-10 flex-none fill-cyan-500" /> */}
               {/* <p>Publisher Analytics</p> */}
               <div className="ml-10">
                 <Link href="/">
-                  <p className="text-base font-semibold">Publisher Analytics</p>
+                  <div className="flex cursor-pointer items-center text-xl font-bold">
+                    <Image
+                      src={PublisherAnalyticsLogo}
+                      alt="Publisher Analytics Logo"
+                      style={{ width: '200px', marginLeft: '-8px' }}
+                      unoptimized
+                    />
+                    {/* <p>Publisher Analytics</p> */}
+                  </div>
+                </Link>
+                <Link href="/">
+                  {/* <p className="text-base font-semibold">Publisher Analytics</p> */}
                   <p className="mt-1 max-w-sm text-sm">
                     On-page real-time analytics and A/B testing designed to
                     significantly boost your site`s engagement rate. Proudly a
@@ -35,7 +45,7 @@ export function Footer() {
                 </Link>
               </div>
             </div>
-            <nav className="mt-4 lg:mt-10 flex flex-col justify-between gap-2 lg:gap-8 px-10">
+            <nav className="mt-4 flex flex-col justify-between gap-2 px-10 lg:mt-10 lg:gap-8">
               <FooterNavLinks />
             </nav>
           </div>
@@ -58,7 +68,7 @@ export function Footer() {
             </div>
           </div> */}
         </div>
-        <div className="flex mt-2 w-full flex-col items-center border-t border-gray-200 pb-12 pt-8 md:pt-6">
+        <div className="mt-2 flex w-full flex-col items-center border-t border-gray-200 pb-12 pt-8 md:pt-6">
           {/* <form className="flex w-full justify-center md:w-auto">
             <TextField
               type="email"

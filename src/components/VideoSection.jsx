@@ -1,4 +1,4 @@
-import ReactPlayerIframe from "./ReactPlayerIframe"
+import ReactPlayerIframe from './ReactPlayerIframe'
 
 const features = [
   {
@@ -19,33 +19,32 @@ const features = [
 ]
 
 export default function VideoSection() {
-
   return (
     <div id="videoSection" className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl sm:text-center flex flex-col items-center">
-          <p className="mt-2 text-3xl font-medium  tracking-tight text-gray-900 sm:text-4xl ">
-          Boost Your Editorial Strategy with Instant A/B Testing
-          </p>
+        <div className="mx-auto flex max-w-3xl flex-col items-center sm:text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Boost Your Editorial Strategy with Instant A/B Testing
+          </h2>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
             Increase reader engagement with real-time content analytics for
             publishers. Identify underperforming content, conduct image and
             headline testing, and make strategic editorial decisions based on
             user behavior and preferences.
           </p>
-          <h2 className="text-base font-semibold leading-7 text-[#06b6d4] mt-10">
+          {/* <p className="mt-10 text-2xl font-semibold leading-7 text-[#008e96]">
             How it works
-          </h2>
+          </p> */}
         </div>
       </div>
-      <div className="w-full flex justify-center my-0 -mb-14 sm:my-10 sm:mb-20">
-      <ReactPlayerIframe url="https://vimeo.com/880465679"/>
+      <div className="my-0 -mb-14 flex w-full justify-center sm:my-10 sm:mb-20">
+        <ReactPlayerIframe url="https://vimeo.com/880465679" />
       </div>
       <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-0 lg:px-8">
         <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
           {features.map((feature) => (
-            <div key={feature.name} className="relative">
-              <dt className="inline font-semibold text-gray-900">
+            <div key={feature.name} className="relative mx-5">
+              <dt className="mr-2 inline font-semibold text-gray-900">
                 {feature.name}
               </dt>{' '}
               <dd className="inline">{feature.description}</dd>
