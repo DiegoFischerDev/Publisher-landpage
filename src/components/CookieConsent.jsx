@@ -31,7 +31,7 @@ export function CookieConsent() {
           <span className="font-bold text-[#06b6d4]">Read More.</span>
         </Link>
       </p>
-      <button className="bg-[#06b6d4] text-white py-2 px-4 rounded-md mt-3 self-center" onClick={handleClick}>
+      <button className="bg-[#06b6d4] hover:bg-black text-white py-2 px-4 rounded-md mt-3 self-center" onClick={handleClick}>
         I understand
       </button>
     </div>
