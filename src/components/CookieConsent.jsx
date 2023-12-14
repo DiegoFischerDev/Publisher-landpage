@@ -23,7 +23,7 @@ export function CookieConsent() {
   }
 
   return (
-    <div className="bg-white max-w-lg shadow-2xl fixed bottom-20 right-10 z-50 rounded-md p-5 flex flex-col border border-gray-300">
+    <div className="bg-white max-w-lg shadow-2xl fixed bottom-20 right-10 sm:right-5 z-50 rounded-md p-5 flex flex-col border border-gray-300">
       <h3 className="text-lg font-bold">We value your privacy</h3>
       <p className="text-sm mr-10 mt-2">
         We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking “I understand“, you consent to our use of cookies.{' '}
