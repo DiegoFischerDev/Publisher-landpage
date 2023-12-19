@@ -1,4 +1,4 @@
-import HowItWorksScreenshot from '../images/how-it-works-photos/extension-screenshot.png'
+import HowItWorksScreenshot from '../../public/assets/suite.png'
 import Image from 'next/image'
 export function HowItWorks() {
   return (

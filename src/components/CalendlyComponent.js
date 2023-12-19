@@ -20,20 +20,13 @@ export default function CalendlyComponent() {
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Secure Your Free Consultation with Rasmus now
+            Secure your free consultation now
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-gray-600">
-            Seize the opportunity to discover how Publisher Analytics can help
-            you increase your site’s engagement rate. Schedule your cost-free,
-            no-obligation consultation with{' '}
-            <Link
-              style={{ color: '#06b6d4' }}
-              href="https://www.linkedin.com/in/rasmus-s-43a2966/"
-            >
-              Rasmus
-            </Link>{' '}
-            today.
+            Discover how Publisher Analytics can help you optimize your content
+            for engagement. Schedule your cost-free, no-obligation consultation
+            with our team today.
           </p>
         </div>
         <ul

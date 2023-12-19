@@ -45,7 +45,7 @@ export default function Compliance() {
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Compliance
         </h1>
-        <p className="text-base font-semibold text-[#06b6d4]">
+        <p className="text-base font-semibold text-color2">
           NicePeopleAtWork S.L. is committed to compliance standards
         </p>
         <div className="mt-10">
@@ -59,7 +59,7 @@ export default function Compliance() {
               <p className="mt-5">
                 <strong>NPAW</strong> is{' '}
                 <Link target="_blank" href="https://www.iso.org/standard/27001">
-                  <span className="font-bold text-[#06b6d4]">ISO 27001</span>
+                  <span className="font-bold text-color2">ISO 27001</span>
                 </Link>{' '}
                 certified, which reflects our strong commitment to data
                 security. This certification is among the most widely accepted
@@ -87,7 +87,7 @@ export default function Compliance() {
                   target="_blank"
                   href="https://www.iso.org/standard/71670.html"
                 >
-                  <span className="font-bold text-[#06b6d4]">ISO 27001</span>
+                  <span className="font-bold text-color2">ISO 27001</span>
                 </Link>{' '}
                 certified. This Privacy Information Management System (PIMS)
                 standard acts as a privacy extension to the ISO/IEC 27001
@@ -110,19 +110,19 @@ export default function Compliance() {
               <p className="mt-5">
                 Find below{' '}
                 <Link target="_blank" href={documents[0].url}>
-                  <span className="font-bold text-[#06b6d4]">
+                  <span className="font-bold text-color2">
                     {documents[0].name}
                   </span>
                 </Link>{' '}
                 and our{' '}
                 <Link target="_blank" href={documents[1].url}>
-                  <span className="font-bold text-[#06b6d4]">
+                  <span className="font-bold text-color2">
                     {documents[1].name}
                   </span>
                 </Link>{' '}
                 and{' '}
                 <Link target="_blank" href={documents[2].url}>
-                  <span className="font-bold text-[#06b6d4]">
+                  <span className="font-bold text-color2">
                     {documents[2].name}
                   </span>
                 </Link>{' '}
@@ -143,7 +143,7 @@ export default function Compliance() {
                     <div className="mt-3 flex w-full justify-between">
                       <p className="text-gray-700">English</p>
 
-                      <div className="flex cursor-pointer items-center justify-end font-bold text-[#06b6d4]">
+                      <div className="flex cursor-pointer items-center justify-end font-bold text-color2">
                         <Link
                           className="flex items-center"
                           target="_blank"
@@ -173,7 +173,7 @@ export default function Compliance() {
                   target="_blank"
                   href="https://www.iso.org/standard/73671.html"
                 >
-                  <span className="font-bold text-[#06b6d4]">ISO 20252</span>
+                  <span className="font-bold text-color2">ISO 20252</span>
                 </Link>
                 , an international quality standard outlining requirements for
                 companies that conduct market, opinion, and social research,
@@ -194,7 +194,7 @@ export default function Compliance() {
                     <div className="mt-3 flex w-full justify-between">
                       <p className="text-gray-700">English</p>
 
-                      <div className="flex cursor-pointer items-center justify-end font-bold text-[#06b6d4]">
+                      <div className="flex cursor-pointer items-center justify-end font-bold text-color2">
                         <Link
                           className="flex items-center"
                           target="_blank"
@@ -232,13 +232,14 @@ export default function Compliance() {
               </p>
               <p className="mt-5">
                 As proof of our dedication to the environment, we have published
-                our                <Link
-                  target="_blank"
-                  href={documentsSectionThree[0].url}
-                >
-                  <span className="font-bold text-[#06b6d4]">Environmental Policy</span>
-                </Link> , which details our initiatives and
-                goals in creating a sustainable organization.
+                our{' '}
+                <Link target="_blank" href={documentsSectionThree[0].url}>
+                  <span className="font-bold text-color2">
+                    Environmental Policy
+                  </span>
+                </Link>{' '}
+                , which details our initiatives and goals in creating a
+                sustainable organization.
               </p>
 
               <ul
@@ -255,7 +256,7 @@ export default function Compliance() {
                     <div className="mt-3 flex w-full justify-between">
                       <p className="text-gray-700">English</p>
 
-                      <div className="flex cursor-pointer items-center justify-end font-bold text-[#06b6d4]">
+                      <div className="flex cursor-pointer items-center justify-end font-bold text-color2">
                         <Link
                           className="flex items-center"
                           target="_blank"
@@ -276,7 +277,7 @@ export default function Compliance() {
             <li className="gap-x-3">
               <p>
                 To learn more about NPAW’s compliance policy, please contact{' '}
-                <span className="font-bold text-[#06b6d4]">
+                <span className="font-bold text-color2">
                   info@nicepeopleatwork.com
                 </span>
                 .

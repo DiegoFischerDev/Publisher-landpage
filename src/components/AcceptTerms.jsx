@@ -4,18 +4,17 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 export default function AcceptTerms() {
+  const [accepted, setAccepted] = useState(false)
+  const [alert, setAlert] = useState(false)
 
-    const [accepted, setAccepted] = useState(false);
-    const [alert, setAlert] = useState(false);
-
-    const handleProceedClick = () => {
-        if (!accepted) {
-            setAlert(true);
-        }
+  const handleProceedClick = () => {
+    if (!accepted) {
+      setAlert(true)
     }
+  }
 
   return (
-    <div className='mt-24' id="terms">
+    <div className="mt-24" id="terms">
       <div className="relative flex items-start">
         <div className="flex h-6 items-center">
           <input
@@ -23,8 +22,11 @@ export default function AcceptTerms() {
             aria-describedby="comments-description"
             name="comments"
             type="checkbox"
-            className="h-4 w-4 rounded border-gray-300 text-[#06b6d4] focus:ring-[#06b6d4]"
-            onChange={() => {setAccepted(!accepted); setAlert(false)}}
+            className="h-4 w-4 rounded border-gray-300 text-color2 focus:ring-color2"
+            onChange={() => {
+              setAccepted(!accepted)
+              setAlert(false)
+            }}
           />
         </div>
         <div className="ml-3 text-sm leading-6">
@@ -44,14 +46,23 @@ export default function AcceptTerms() {
           </span>
         </div>
       </div>
-      <div className="mt-10 flex justify-end items-center">
-      {alert && <p className="text-red-500 mr-10">You must accept the terms to proceed.</p>}
-      <Link href={accepted ? "/" : "#terms"}>
-        <button onClick={handleProceedClick} className={`inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors relative overflow-hidden ${accepted ? "bg-cyan-500" : "bg-gray-500"} text-white before:absolute before:inset-0 active:before:bg-transparent hover:before:bg-white/10 active:text-white/80 before:transition-colors`}>
-          <span className="hidden lg:inline">Proceed</span>
-          <span className="lg:hidden">Proceed</span>
-        </button>
-      </Link>
+      <div className="mt-10 flex items-center justify-end">
+        {alert && (
+          <p className="mr-10 text-red-500">
+            You must accept the terms to proceed.
+          </p>
+        )}
+        <Link href={accepted ? '/' : '#terms'}>
+          <button
+            onClick={handleProceedClick}
+            className={`relative inline-flex justify-center overflow-hidden rounded-lg px-3 py-2 text-sm font-semibold outline-2 outline-offset-2 transition-colors ${
+              accepted ? 'bg-color2' : 'bg-gray-500'
+            } text-white before:absolute before:inset-0 before:transition-colors hover:before:bg-white/10 active:text-white/80 active:before:bg-transparent`}
+          >
+            <span className="hidden lg:inline">Proceed</span>
+            <span className="lg:hidden">Proceed</span>
+          </button>
+        </Link>
       </div>
     </div>
   )

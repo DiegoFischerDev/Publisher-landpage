@@ -4,11 +4,16 @@ import { Dialog, Transition } from '@headlessui/react'
 import { TextField } from '@/components/Fields'
 import { Button } from '@/components/Button'
 import StripeController from '@/components/controllers/StripeController'
-import publisherLogo from '../../public/assets/small-publisher-logo.png'
+import publisherLogo from '../../public/assets/publisher-analytics-logo/small-publisher-logo.png'
 import Link from 'next/link'
 
-export default function RegisterDialog({ isOpen, onClose, activePeriod, price, planName }) {
-
+export default function RegisterDialog({
+  isOpen,
+  onClose,
+  activePeriod,
+  price,
+  planName,
+}) {
   const [invalidEamil, setInvalidEmail] = useState(false)
   const [formData, setFormData] = useState({
     firstName: '',
@@ -28,7 +33,7 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
     const isTermsOfServiceChecked = formData.termsOfService
     const isPrivacyPolicyChecked = formData.privacyPolicy
 
-    if(isValidEmail) setInvalidEmail(false)
+    if (isValidEmail) setInvalidEmail(false)
 
     setIsFormValid(
       isValidEmail &&
@@ -84,8 +89,8 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
-                <div className='mb-10'>
-                  <div className='flex items-center gap-2 mb-5'>
+                <div className="mb-10">
+                  <div className="mb-5 flex items-center gap-2">
                     <Image
                       src={publisherLogo}
                       alt="PublisherAnalytics logo"
@@ -93,10 +98,13 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                     />
                     <h2>Publisher Analitycs</h2>
                   </div>
-                  <div className=''>
-                    <p className='text-slate-500 text-sm'>{planName}</p>
-                    <p className='text-2xl'>30 Days Free Trial</p>
-                    <p className='text-slate-500 text-sm'>Then {price} per {activePeriod === 'Monthly' ? "month" : "year"}</p>
+                  <div className="">
+                    <p className="text-sm text-slate-500">{planName}</p>
+                    <p className="text-2xl">30 Days Free Trial</p>
+                    <p className="text-sm text-slate-500">
+                      Then {price} per{' '}
+                      {activePeriod === 'Monthly' ? 'month' : 'year'}
+                    </p>
                   </div>
                 </div>
                 <form onSubmit={handleSubmit}>
@@ -129,7 +137,9 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                       value={formData.email}
                       onChange={handleChange}
                     />
-                    {invalidEamil && <p className='text-xs text-red-700'>invalid email</p>}
+                    {invalidEamil && (
+                      <p className="text-xs text-red-700">invalid email</p>
+                    )}
                   </div>
                   <fieldset>
                     <legend className="sr-only">Notifications</legend>
@@ -149,7 +159,13 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                         </div>
                         <div className="ml-3 text-sm leading-6">
                           <label className="font-medium text-gray-900">
-                            I agree to the <Link className='text-[#06b6d4]' href='/support-level-agreement'>Support Level Agreement</Link>
+                            I agree to the{' '}
+                            <Link
+                              className="text-color2"
+                              href="/support-level-agreement"
+                            >
+                              Support Level Agreement
+                            </Link>
                           </label>{' '}
                         </div>
                       </div>
@@ -168,7 +184,13 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                         </div>
                         <div className="ml-3 text-sm leading-6">
                           <label className="font-medium text-gray-900">
-                            I agree to the <Link className='text-[#06b6d4]' href='/privacy-policy-addendum'>Privacy Policy</Link>
+                            I agree to the{' '}
+                            <Link
+                              className="text-color2"
+                              href="/privacy-policy-addendum"
+                            >
+                              Privacy Policy
+                            </Link>
                           </label>{' '}
                         </div>
                       </div>
@@ -187,7 +209,10 @@ export default function RegisterDialog({ isOpen, onClose, activePeriod, price, p
                         </div>
                         <div className="ml-3 text-sm leading-6">
                           <label className="font-medium text-gray-900">
-                            I agree to the <Link className='text-[#06b6d4]' href='/payment-terms'>Terms of Service</Link>
+                            I agree to the{' '}
+                            <Link className="text-color2" href="/payment-terms">
+                              Terms of Service
+                            </Link>
                           </label>{' '}
                         </div>
                       </div>

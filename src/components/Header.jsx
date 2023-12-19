@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { HeaderNavLinks } from '@/components/HeaderNavLinks'
-import PublisherAnalyticsLogo from '@/images/PubisherAnalyticslogo.png'
+import PublisherAnalyticsLogo from '../../public/assets/publisher-analytics-logo/PubisherAnalyticslogo.png'
 import Image from 'next/image'
 
 function MenuIcon(props) {

@@ -12,7 +12,7 @@ export default function SupportLevelAgreement() {
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Support Level Agreement for Publisher Analytics
         </h1>
-        <p className="text-base font-semibold text-[#06b6d4]">
+        <p className="text-base font-semibold text-color2">
           Last updated on December 5, 2023
         </p>
         <div className="mt-10">
@@ -33,139 +33,274 @@ export default function SupportLevelAgreement() {
           <ul role="list" className="mt-8 space-y-8 text-gray-600">
             <li className="gap-x-3">
               <strong>
-                <p className="mb-2 mt-2 font-semibold text-[#06b6d4]">
+                <p className="mb-2 mt-2 font-semibold text-color2">
                   Tier 1 - SILVER Support{' '}
                 </p>
               </strong>
-              <div className='overflow-x-auto bg-gray-100 p-4 relative'>
-              <table className="w-[700px] divide-y divide-gray-300">
-              <thead>
-                <tr>
-                  <th className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Severity Level</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Description of Severity Errors</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Response Time</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Temporary Solution</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Permanent Solution</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 1 Critical Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">The Services are completely unavailable or Customer cannot use the services due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">12-4 business hours</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">5-10 business days/hours</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">Next software update or 5 business days</td>
-                  </tr>
+              <div className="relative overflow-x-auto bg-gray-100 p-4">
+                <table className="w-[700px] divide-y divide-gray-300">
+                  <thead>
+                    <tr>
+                      <th className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">
+                        Severity Level
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Description of Severity Errors
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Response Time
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Temporary Solution
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Permanent Solution
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 1 Critical Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        The Services are completely unavailable or Customer
+                        cannot use the services due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        12-4 business hours
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        5-10 business days/hours
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        Next software update or 5 business days
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 2 Important Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">A significant functional component of the Services is unavailable or Customer’s use of such component is impaired due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">24-8 business hours</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">10-48 business days/hours</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">Next software update or 10 business days</td>
-                  </tr>
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 2 Important Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        A significant functional component of the Services is
+                        unavailable or Customer’s use of such component is
+                        impaired due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        24-8 business hours
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        10-48 business days/hours
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        Next software update or 10 business days
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 3 Other Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">A non-significant functional component of the Services is unavailable or Customer’s use of such component is impaired due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">48-10 business hours</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">20-10 business days</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">Next software update</td>
-                  </tr>
-              </tbody>
-              </table>
-              <MobileScrollBar width={767} />
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 3 Other Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        A non-significant functional component of the Services
+                        is unavailable or Customer’s use of such component is
+                        impaired due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        48-10 business hours
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        20-10 business days
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        Next software update
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <MobileScrollBar width={767} />
               </div>
 
-
               <strong>
-                <p className="mb-2 mt-10 font-semibold text-[#06b6d4]">
+                <p className="mb-2 mt-10 font-semibold text-color2">
                   Tier 2 - GOLD Support{' '}
                 </p>
               </strong>
-              <div className='overflow-x-auto bg-gray-100 p-4 relative'>
-              <table className="w-[700px] divide-y divide-gray-300">
-              <thead>
-                <tr>
-                  <th className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Severity Level</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Description of Severity Errors</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Response Time</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Temporary Solution</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Permanent Solution</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 1 Critical Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">The Services are completely unavailable or Customer cannot use the services due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">8-1 business hour [1-24 on Off Hours]</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">3-6 Business days/hours</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">10-3 business days</td>
-                  </tr>
+              <div className="relative overflow-x-auto bg-gray-100 p-4">
+                <table className="w-[700px] divide-y divide-gray-300">
+                  <thead>
+                    <tr>
+                      <th className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">
+                        Severity Level
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Description of Severity Errors
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Response Time
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Temporary Solution
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Permanent Solution
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 1 Critical Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        The Services are completely unavailable or Customer
+                        cannot use the services due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        8-1 business hour [1-24 on Off Hours]
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        3-6 Business days/hours
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        10-3 business days
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 2 Important Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">A significant functional component of the Services is unavailable or Customer’s use of such component is impaired due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">12-6 business hours [Next business day/8 hours on Off Hours]</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">10 business days</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">Next software update or 10 business days</td>
-                  </tr>
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 2 Important Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        A significant functional component of the Services is
+                        unavailable or Customer’s use of such component is
+                        impaired due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        12-6 business hours [Next business day/8 hours on Off
+                        Hours]
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        10 business days
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        Next software update or 10 business days
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 3 Other Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">A non-significant functional component of the Services is unavailable or Customer’s use of such component is impaired due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">24-8 business hours [Next business day on Off Hours]</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">15-10 business days</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">Next software update</td>
-                  </tr>
-              </tbody>
-              </table>
-              <MobileScrollBar width={767} />
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 3 Other Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        A non-significant functional component of the Services
+                        is unavailable or Customer’s use of such component is
+                        impaired due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        24-8 business hours [Next business day on Off Hours]
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        15-10 business days
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        Next software update
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <MobileScrollBar width={767} />
               </div>
 
               <strong>
-                <p className="mb-2 mt-10 font-semibold text-[#06b6d4]">
+                <p className="mb-2 mt-10 font-semibold text-color2">
                   Tier 3 - PLATINUM Support{' '}
                 </p>
               </strong>
-              <div className='overflow-x-auto bg-gray-100 p-4 relative'>
-              <table className="w-[700px] divide-y divide-gray-300">
-              <thead>
-                <tr>
-                  <th className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Severity Level</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Description of Severity Errors</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Response Time</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Temporary Solution</th>
-                  <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Permanent Solution</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 1 Critical Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">The Services are Completely unavailable or Customer cannot use the services due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">3-15 hours/minutes</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">2-6 days/hours</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">5-3 business days</td>
-                  </tr>
+              <div className="relative overflow-x-auto bg-gray-100 p-4">
+                <table className="w-[700px] divide-y divide-gray-300">
+                  <thead>
+                    <tr>
+                      <th className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">
+                        Severity Level
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Description of Severity Errors
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Response Time
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Temporary Solution
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Permanent Solution
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 1 Critical Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        The Services are Completely unavailable or Customer
+                        cannot use the services due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        3-15 hours/minutes
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        2-6 days/hours
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        5-3 business days
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 2 Important Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">A significant functional component of the Services is unavailable or Customer’s use of such component is impaired due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">6-30 hours/minutes</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">4 days/Next business day</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">10 business days</td>
-                  </tr>
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 2 Important Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        A significant functional component of the Services is
+                        unavailable or Customer’s use of such component is
+                        impaired due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        6-30 hours/minutes
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        4 days/Next business day
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        10 business days
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Severity 3 Other Issues</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">A non-significant functional component of the Services is unavailable or Customers use of such component is impaired due to a Services failure.</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">8-30 hours/minutes</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">10 days</td>
-                    <td className="px-3 py-4 text-sm text-gray-500">Next software update</td>
-                  </tr>
-              </tbody>
-              </table>
-              <MobileScrollBar width={767} />
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        Severity 3 Other Issues
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        A non-significant functional component of the Services
+                        is unavailable or Customers use of such component is
+                        impaired due to a Services failure.
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        8-30 hours/minutes
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        10 days
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        Next software update
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <MobileScrollBar width={767} />
               </div>
             </li>
           </ul>
@@ -206,37 +341,55 @@ export default function SupportLevelAgreement() {
             access to NPAW Suite to guarantee the integrity of the Data, and
             such suspension will not be counted in uptime & availability SLA.
           </p>
-  <div className="mt-10">
-    <h2 className="text-lg font-semibold leading-6 text-[#06b6d4]">
-      Service Level Uptime & Availability Matrix
-    </h2>
-    <div className="mt-4">
-      <div className='overflow-x-auto bg-gray-100 p-4 relative max-w-[600px]'>
-        <table className="w-[500px] divide-y divide-gray-300">
-          <thead>
-            <tr>
-              <th className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Support Type</th>
-              <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Monthly Availability Data Reception</th>
-              <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Monthly Availability User Interface & API</th>
-            </tr>
-          </thead>
-          <tbody className="divide-y divide-gray-200">
-            <tr>
-              <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">PLATINUM Support</td>
-              <td className="px-3 py-4 text-sm text-gray-500">99.99%</td>
-              <td className="px-3 py-4 text-sm text-gray-500">99.97%</td>
-            </tr>
-            <tr>
-              <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">GOLD Support</td>
-              <td className="px-3 py-4 text-sm text-gray-500">99.99%</td>
-              <td className="px-3 py-4 text-sm text-gray-500">99.97%</td>
-            </tr>
-          </tbody>
-        </table>
-        <MobileScrollBar width={600} />
-      </div>
-    </div>
-  </div>
+          <div className="mt-10">
+            <h2 className="text-lg font-semibold leading-6 text-color2">
+              Service Level Uptime & Availability Matrix
+            </h2>
+            <div className="mt-4">
+              <div className="relative max-w-[600px] overflow-x-auto bg-gray-100 p-4">
+                <table className="w-[500px] divide-y divide-gray-300">
+                  <thead>
+                    <tr>
+                      <th className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">
+                        Support Type
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Monthly Availability Data Reception
+                      </th>
+                      <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                        Monthly Availability User Interface & API
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        PLATINUM Support
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        99.99%
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        99.97%
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
+                        GOLD Support
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        99.99%
+                      </td>
+                      <td className="px-3 py-4 text-sm text-gray-500">
+                        99.97%
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <MobileScrollBar width={600} />
+              </div>
+            </div>
+          </div>
           <p className="mt-5">
             <strong className="mt-5 font-semibold text-gray-900">
               Communication & Notifications

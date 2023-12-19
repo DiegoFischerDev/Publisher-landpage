@@ -192,7 +192,7 @@ export function AppDemo() {
                 <div
                   className={clsx(
                     'ml-auto text-sm tabular-nums tracking-tight',
-                    percentageChange >= 0 ? 'text-cyan-500' : 'text-gray-500',
+                    percentageChange >= 0 ? 'text-color2' : 'text-gray-500',
                   )}
                 >
                   {`${
@@ -219,7 +219,7 @@ export function AppDemo() {
                 onChangeActivePointIndex={setActivePointIndex}
               />
             </div>
-            <div className="mt-4 rounded-lg bg-cyan-500 px-4 py-2 text-center text-sm font-semibold text-white">
+            <div className="mt-4 rounded-lg bg-color2 px-4 py-2 text-center text-sm font-semibold text-white">
               Trade
             </div>
             <div className="mt-3 divide-y divide-gray-100 text-sm">

@@ -18,9 +18,9 @@ export const metadata = {
   description:
     "Publisher Analytics leverages A/B testing to help you optimize your site's engagement. Understanding what keeps your audience intrigued has never been easier.",
   icons: {
-    icon: ['/assets/favicon.ico?v=5'],
-    apple: ['/assets/apple-touch-icon.png?v=5'],
-    shortcut: ['/assets/apple-touch-icon.png'],
+    icon: ['/assets/publisher-analytics-logo/favicon.ico?v=5'],
+    apple: ['/assets/publisher-analytics-logo/apple-touch-icon.png?v=5'],
+    shortcut: ['/assets/publisher-analytics-logo/apple-touch-icon.png'],
   },
   openGraph: {
     title:
@@ -31,13 +31,13 @@ export const metadata = {
     siteName: 'PublisherAnalytics.ai',
     images: [
       {
-        url: 'images/logos/publisher-analytics-logo/publisher-analytics-logo-1800-1600.png',
+        url: '/assets/publisher-analytics-logo/publisher-analytics-logo-1800-1600.png',
         width: 800,
         height: 600,
         alt: 'Publisher Analytics logo',
       },
       {
-        url: 'images/logos/publisher-analytics-logo/publisher-analytics-logo-800-600.png',
+        url: '/assets/publisher-analytics-logo/publisher-analytics-logo-800-600.png',
         width: 1800,
         height: 1600,
         alt: 'Publisher Analytics logo',

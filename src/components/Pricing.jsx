@@ -6,9 +6,7 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { Logomark } from '@/components/Logo'
 import RegisterDialog from '@/components/RegisterDialog'
-import publisherLogo from '../../public/assets/small-publisher-logo.png'
 
 const plans = [
   {
@@ -16,15 +14,15 @@ const plans = [
     featured: false,
     price: { Monthly: '$99', Annually: '$950' },
     description:
-      'Achieve higher engagement rates and optimize your content with our tailored plan designed for smaller publishers. Start increasing your engagement rate today!',
+      'Achieve higher engagement rates and create more effective content with our core plan for small-sized publishers',
     button: {
-      label: 'Start for free with a 30 days free trial',
+      label: 'Start for free with a 30-day trial',
       href: '',
     },
     features: [
-      'Perform up to 50 A/B tests per month',
+      'Up to 50 A/B tests per month',
       'Automatic winner selection',
-      'See real-time data on page via the HUD',
+      'See real-time data, on-page via the HUD',
       'Access to the backoffice with pre-built dashboards',
     ],
     logomarkClassName: 'fill-gray-300',
@@ -34,44 +32,44 @@ const plans = [
     featured: false,
     price: { Monthly: '$599', Annually: '$5700' },
     description:
-      'Take your engagement rates to the next level with our tailored plan designed for medium-sized publishers. Maximize your content optimization and achieve remarkable engagement results',
+      'Take your reader engagement to the next level with our tailored plan designed for medium-sized publishers',
     button: {
-      label: 'Start for free with a 30 days free trial',
+      label: 'Start for free with a 30-day trial',
       href: '',
     },
     features: [
-      'Perform up to 200 A/B tests per month',
+      'Up to 200 A/B tests per month',
       'Automatic winner selection',
-      'See real-time data on page via the HUD',
-      'Access to the backoffice with pre-built dashboards',
-      'Customize your own dashboards',
+      'See real-time data, on-page via the HUD',
+      'Access the back office with in-depth, pre-built dashboards',
+      'Create custom dashboards',
       'Set up email alerts',
       'Invite all your team members',
     ],
     logomarkClassName: 'fill-gray-500',
   },
   {
-    name: 'Large-Sized Publishers',
+    name: 'Large-sized publishers',
     featured: true,
     price: { Monthly: 'Contact us', Annually: 'Contact us' },
     description:
-      'Unlock the full potential of your engagement strategy. Gain access to advanced features and support to drive engagement and maximize your content performance.',
+      'Unlock your content’s full potentia. Gain access to advanced features and support to take your content strategy to the next level',
     button: {
       label: 'Contact us',
       href: 'contact',
     },
     features: [
-      'Perform an unlimited amount of A/B tests per month',
+      'Unlimited amount of A/B tests per month',
       'Automatic winner selection',
-      'See real-time data on page via the HUD',
-      'Access to the backoffice with pre-built dashboards',
-      'Customize your own dashboards',
-      'Monthly call with our customer success team, to help you utilize the tool to its full potential',
+      'See real-time data, on-page via the HUD',
+      'Access the back office with in-depth, pre-built dashboards',
+      'Create custom dashboards',
       'Set up email alerts',
       'Invite all your team members',
-      '24 hours support via phone or email',
+      'Monthly call with our team to help you make the most of the tool',
+      '24-hour support via phone or email',
     ],
-    logomarkClassName: 'fill-cyan-500',
+    logomarkClassName: 'fill-color2',
   },
 ]
 
@@ -193,7 +191,7 @@ function Plan({
               <CheckIcon
                 className={clsx(
                   'h-6 w-6 flex-none',
-                  featured ? 'text-white' : 'text-cyan-500',
+                  featured ? 'text-white' : 'text-color2',
                 )}
               />
               <span className="ml-4">{feature}</span>
@@ -237,11 +235,12 @@ export function Pricing() {
             id="pricing-title"
             className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
           >
-            Affordable pricing for publishers of all sizes.
+            Flexible pricing for publishers of all sizes
           </h2>
           <p className="mt-2 text-lg text-gray-600">
             Whether you’re a small, medium, or large publisher, we offer
-            tailored plans to optimize your content and boost engagement.
+            tailored plans to help you optimize your site’s content and boost
+            engagement.
           </p>
         </div>
 
@@ -270,7 +269,7 @@ export function Pricing() {
             <div
               aria-hidden="true"
               className={clsx(
-                'pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-cyan-500 transition-all duration-300',
+                'pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-color2 transition-all duration-300',
                 activePeriod === 'Monthly'
                   ? '[clip-path:inset(0_50%_0_0)]'
                   : '[clip-path:inset(0_0_0_calc(50%-1px))]',

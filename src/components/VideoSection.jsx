@@ -4,17 +4,17 @@ const features = [
   {
     name: 'Identify and address underperforming articles.',
     description:
-      'underperforming articles and refine your content strategy to boost reader engagement.',
+      'Detect underperforming articles and refine your content strategy to boost reader engagement',
   },
   {
     name: 'Automate image, subtitle, and headline testing.',
     description:
-      'Easily set up A/B tests for the different content elements and let the tool automatically select the most compelling ones.',
+      'Easily set up A/B tests and let the tool automatically select the most compelling content elements.',
   },
   {
-    name: 'Powerful yet friendly user interface.',
+    name: 'Access powerful insights regardless of data expertise.',
     description:
-      'Real-time ranking markers provide instant feedback on article performance, requiring no data analysis skills to operate.',
+      'Real-time, on-page markers provide instant feedback on article performance, requiring no data analysis skills.',
   },
 ]
 
@@ -24,15 +24,15 @@ export default function VideoSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto flex max-w-3xl flex-col items-center sm:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Boost Your Editorial Strategy with Instant A/B Testing
+            Elevate your editorial strategy with real-time content analytics
           </h2>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-            Increase reader engagement with real-time content analytics for
+            Increase reader engagement with actionable content insights for
             publishers. Identify underperforming content, conduct image and
             headline testing, and make strategic editorial decisions based on
-            user behavior and preferences.
+            user behavior and preferences
           </p>
-          {/* <p className="mt-10 text-2xl font-semibold leading-7 text-[#008e96]">
+          {/* <p className="mt-10 text-2xl font-semibold leading-7 text-color2">
             How it works
           </p> */}
         </div>

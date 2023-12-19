@@ -1,4 +1,4 @@
-import SuiteScreenshot from '../images/how-it-works-photos/suite-screenshot.png'
+import SuiteScreenshot from '../../public/assets/suite.png'
 import Image from 'next/image'
 
 export default function SuiteShowOffComponent() {

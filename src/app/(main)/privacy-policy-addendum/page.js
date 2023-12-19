@@ -10,7 +10,7 @@ export default function PrivacyPolicyAddeddum() {
           Exhibit A: NPAW Privacy Policy Addendum
         </h1>
         <br></br>
-        <p className="text-base font-semibold text-[#06b6d4]">
+        <p className="text-base font-semibold text-color2">
           All Customer’s Application Data is deemed confidential, including
           without limitation any Customer data containing third party “personal
           information” or “personally identifiable information” or the like

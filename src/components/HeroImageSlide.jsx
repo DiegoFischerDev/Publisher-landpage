@@ -51,13 +51,13 @@ function HeroImageSlide() {
           <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-[#fafafa] pt-[8%]" />
         </div>
       </div>
-      <div className="absolute -bottom-10 flex w-full justify-center py-2 pl-4">
+      <div className="absolute -bottom-10 flex w-full justify-center items-center py-2 pl-4">
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className={` mr-5 h-3 w-10 cursor-pointer rounded border border-gray-200 text-2xl duration-1000 ${
-              slideIndex === currentIndex ? 'bg-[#262626]' : 'bg-white'
+            className={`mr-7 h-3 w-3 cursor-pointer rounded-full shadow-xl border border-gray-400 duration-1000 ${
+              slideIndex === currentIndex ? 'bg-black' : 'bg-white'
             }`}
           ></div>
         ))}

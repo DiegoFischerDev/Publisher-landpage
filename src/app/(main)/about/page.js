@@ -97,14 +97,15 @@ const people = [
     name: 'Diego',
     role: 'Frontend Developer',
     imageUrl: DiegoProfilePicture,
-    bio: `Diego, our go-to for all things frontend and CSS, literally sets the tone for our user interface. His input is vital in ensuring our product maintains its appealing aesthetics.`,
+    bio: `Diego, our go-to for all things frontend and CSS, literally sets the tone for our user interface. His input is vital in ensuring our product maintains coherent and user-friendly aesthetics.`,
     linkedinUrl: 'https://www.linkedin.com/in/diegofischerdev/',
   },
   {
     name: 'Alexandre',
     role: 'Backend Developer',
     imageUrl: ComingSoonPic,
-    bio: `As the back-end powerhouse of our team, Alexandre relishes setting up APIs and delving into robust backend functionalities. He's not merely a code enthusiast, but rather a fervent 'backend geek'.`,
+    bio: `
+    As the back-end powerhouse of our team, Alexandre loves setting up APIs and delving into robust backend functionalities. He's not merely a code enthusiast, but rather a full-blown 'backend geek'.`,
     linkedinUrl: '#',
   },
 ]
@@ -121,21 +122,22 @@ export default function About() {
           <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 xl:grid xl:max-w-none xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-16 xl:gap-y-6">
               <h1 className="max-w-2xl text-4xl font-medium tracking-tight text-gray-900 lg:col-span-2 xl:col-auto">
-                Working on enhancing publisher performance through cutting-edge
-                analytics & AI.
+                Enhancing your content performance through cutting-edge
+                analytics & AI
               </h1>
               <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                 <p className="text-lg leading-8 text-gray-600">
-                  Our diverse team, hailing from Spain, Denmark, Portugal, and
+                  Our diverse team, hailing from Denmark, Spain, Portugal, and
                   Brazil, brings together expertise in coding, marketing, and
-                  sales. With a rich experience within the publisher industry,
-                  our mission at Publisher Analytics is to empower publishers to
-                  maximize engagement and revenue. Being part of the{' '}
+                  sales. With deep knowledge of the digital publishing industry,
+                  our mission is to empower publishers and editorial teams to
+                  maximize engagement and revenue. As part of the{' '}
                   <span style={{ borderBottom: 'solid black 1px' }}>
                     <Link href="https://npaw.com/">NPAW group</Link>
                   </span>{' '}
-                  of companies, we benefit from a vast and diverse background in
-                  the analytics field.
+                  of companies, we bring to the table the latest in data
+                  analytics and artificial intelligence, helping you harness the
+                  full potential of your content and data.
                 </p>
               </div>
               <Image
@@ -155,7 +157,7 @@ export default function About() {
               <div key={item.name}>
                 <time
                   dateTime={item.dateTime}
-                  className="flex items-center text-sm font-semibold leading-6 text-[#06b6d4]"
+                  className="flex items-center text-sm font-semibold leading-6 text-color2"
                 >
                   <svg
                     viewBox="0 0 4 4"
@@ -251,7 +253,7 @@ export default function About() {
                 Meet our team
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                We’re a dynamic group of individuals who are passionate about
+                We are a dynamic group of individuals who are passionate about
                 what we do and dedicated to delivering the best results for our
                 clients.
               </p>

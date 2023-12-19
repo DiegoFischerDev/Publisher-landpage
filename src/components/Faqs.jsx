@@ -3,38 +3,29 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How can our tool help publishers optimize their content?',
+      question: 'How does our tool help publishers optimize their content?',
       answer:
-        'Our tool is designed to help publishers of all sizes optimize their content through easy A/B testing of images, titles, and descriptions. It automatically selects the winning variant, saving you time and effort.',
+        'Our tool is designed to assist publishers of all sizes in optimizing their content through real-time performance insights, as well as easy A/B testing of images, titles, and descriptions. Our tool automatically determines the most engaging options for various content elements, saving you both time and effort. Simultaneously, on-page markers and comprehensive dashboards help you identify high-performing topics and stories. You can then use this information to improve less successful articles and develop a more effective editorial strategy.',
     },
     {
-      question: 'What kind of analytics data will be available in real-time?',
+      question:
+        'What kind of analytics and metrics are available in real time?',
       answer:
-        'The HUD (heads-up display) will provide you with real-time analytics data on your page. This data includes the results of your A/B tests, allowing you to make data-driven decisions for optimizing your content.',
+        'The HUD (heads-up display) provides you with real-time insights on page and article performance. These include visitors and click information, as well as the results of your A/B tests, allowing you to make data-driven content decisions.',
     },
   ],
   [
     {
-      question: 'What features does the backoffice offer?',
+      question: 'What features does the back office offer?',
       answer:
-        'The backoffice provides a range of features to support your content optimization efforts. You will have access to pre-built dashboards that display analytics data. Additionally, for users on tier 2 or 3, the backoffice allows you to create custom dashboards to visualize your data in a way that suits your needs.',
-    },
-    {
-      question: 'How do I optimize my content using the tool?',
-      answer:
-        'Our tool simplifies the process of content optimization through easy A/B testing. You can test different images, titles, and descriptions, and the tool will automatically select the winning combination for you.',
+        'The back office provides a range of features to support your content optimization efforts. All plans include access to pre-built dashboards that display core site and content insights (covering dimensions such as traffic, geography and language, and devices), as well as details on the outcome of experiments. Additionally, if you are a user in the tier 2 and 3 plans, create custom dashboards. This allows you to visualize your data in a way that best aligns with your unique requirements.',
     },
   ],
   [
-    {
-      question: 'Can I track everything that happens on my publisher site?',
-      answer:
-        'Yes, with our tool, you can drill down into the analytics data to track everything that happens on your publisher site. This includes monitoring the performance of different content variants tested through A/B testing.',
-    },
     {
       question: 'Is there a limit to the number of dashboards I can create?',
       answer:
-        'Users on tier 2 or 3 have the flexibility to build their own dashboards in addition to accessing the pre-built ones. This allows you to create custom visualizations and monitor specific metrics or KPIs that are important to your content optimization strategy.',
+        'Users on <a href="/pricing" className="text-blue-600 underline">pricing tiers 2 and 3</a> have the flexibility to build an unlimited number ofcustom dashboards in addition to accessing the pre-built ones. This allows you to create tailored data visualizations and monitor specific metrics or KPIs that are important to your site’s content optimization strategy.',
     },
   ],
 ]

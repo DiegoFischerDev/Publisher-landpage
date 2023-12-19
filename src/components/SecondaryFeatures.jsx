@@ -19,12 +19,19 @@ const features = [
   {
     name: 'Increase engagement rate',
     description:
-      'A/B test your images, titles, and descriptions to find the most engaging content.',
+      'A/B test your images, titles, and descriptions to find the most engaging elements.',
     icon: HeartIcon,
   },
   {
-    name: 'Data-driven decisions',
-    description: 'Make informed decisions based on data and analytics.',
+    name: 'Conduct easy A/B testing',
+    description:
+      'Test different variations of your content with just a few clicks.',
+    icon: ClipboardListIcon,
+  },
+  {
+    name: 'Make data-driven decisions',
+    description:
+      'Make informed editorial decisions based on reader data and analytics.',
     icon: DatabaseIcon,
   },
   {
@@ -34,21 +41,15 @@ const features = [
     icon: CurrencyDollarIcon,
   },
   {
-    name: 'Easy A/B testing',
-    description:
-      'Test different variations of your content with just a few clicks.',
-    icon: ClipboardListIcon,
-  },
-  {
     name: 'Automatic winner selection',
     description:
-      'The winning variation is automatically selected and shown to everyone.',
+      'The test’s winning variation is automatically selected and shown to everyone.',
     icon: CheckCircleIcon,
   },
   {
-    name: 'Detailed analytics',
+    name: 'In-depth analytics',
     description:
-      'Get detailed insights into the performance of each variation.',
+      'Access detailed insights into content performance and test results.',
     icon: ChartBarIcon,
   },
   /* {
@@ -246,10 +247,10 @@ export function SecondaryFeatures() {
             Introducing Our Core Features
           </h2>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-            Enhance your content’s impact with our core features. Utilize A/B
-            testing for your images, titles, and descriptions with Publisher
-            Analytics. Uncover the most engaging variations and drive your
-            content strategy to new heights.
+            Maximize your content’s impact with the core features of Publisher
+            Analytics. Leverage A/B testing to select the most engaging images,
+            titles, and descriptions. Uncover winning formulas and
+            top-performing topics to drive your content strategy to new heights.
           </p>
         </div>
         <ul
@@ -262,8 +263,8 @@ export function SecondaryFeatures() {
               className="rounded-2xl  bg-white p-8 shadow-lg"
             >
               <div className="flex items-center">
-                <feature.icon className="h-8 w-8" color="#008e96" />
-                <h3 className="ml-3 font-semibold text-[#008e96]">
+                <feature.icon className="h-8 w-8 text-color2" />
+                <h3 className="ml-3 font-semibold text-color2">
                   {feature.name}
                 </h3>
               </div>

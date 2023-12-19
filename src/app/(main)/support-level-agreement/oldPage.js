@@ -11,7 +11,7 @@ export default function SupportLevelAgreement() {
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Support Level Agreement for Publisher Analytics
         </h1>
-        <p className="text-base font-semibold text-[#06b6d4]">
+        <p className="text-base font-semibold text-color2">
           Last updated on December 5, 2023
         </p>
         <div className="mt-10">

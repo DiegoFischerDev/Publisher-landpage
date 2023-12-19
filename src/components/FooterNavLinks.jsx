@@ -15,18 +15,18 @@ export function FooterNavLinks() {
   const linksColTwo = [
     ['Privacy Policy', '/privacy-policy'],
     ['Cookie Policy', '/cookie-policy'],
-    ['Compliance', '/compliance'],
+    ['Compliance', 'https://npaw.com/compliance/'],
     ['Documentation', '/'],
   ]
 
   return (
-    <div className='flex justify-between w-[100%]'>
+    <div className="flex w-[100%] justify-between">
       <div className="columns-1 lg:flex lg:justify-start lg:space-x-12">
         {linksColOne.map(([label, href], index) => (
           <Link
             key={label}
             href={href}
-            className="relative min-w-fit rounded-lg px-2 text-sm text-gray-700 transition-colors delay-150 lg:hover:bg-gray-100 hover:text-cyan-500 hover:delay-0"
+            className="relative min-w-fit rounded-lg px-2 text-sm text-gray-700 transition-colors delay-150 hover:text-color2 hover:delay-0 lg:hover:bg-gray-100"
           >
             <p>{label}</p>
           </Link>
@@ -38,7 +38,7 @@ export function FooterNavLinks() {
           <Link
             key={label}
             href={href}
-            className="relative min-w-fit rounded-lg px-2 text-sm text-gray-700 transition-colors delay-150 lg:hover:bg-gray-100 hover:text-cyan-500 hover:delay-0"
+            className="relative min-w-fit rounded-lg px-2 text-sm text-gray-700 transition-colors delay-150 hover:text-color2 hover:delay-0 lg:hover:bg-gray-100"
           >
             <p>{label}</p>
           </Link>

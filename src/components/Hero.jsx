@@ -1,7 +1,6 @@
 import { useId } from 'react'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { DownloadIcon } from '@heroicons/react/outline'
 import HeroImageSlide from '@/components/HeroImageSlide'
 
 function BackgroundIllustration(props) {
@@ -107,14 +106,14 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-5 lg:max-w-none lg:pt-6">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">
-              Optimize and Increase Your Site’s Engagement Rate with Publisher
-              Analytics
+              Optimize your content and increase reader engagement with
+              Publisher Analytics
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              Our Publisher Analytics tool leverages A/B testing to help you
-              optimize your site’s engagement. Understanding what keeps your
-              audience intrigued, interested, and invested has never been
-              easier.
+              Publisher Analytics leverages content analytics and A/B testing to
+              help you fine-tune your content and increase your site’s
+              engagement. Understanding what keeps your audience intrigued,
+              immersed, and invested has never been easier.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-4 sm:justify-start sm:gap-x-6">
               <Button

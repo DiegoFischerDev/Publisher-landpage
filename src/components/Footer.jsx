@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { FooterNavLinks } from '@/components/FooterNavLinks'
-import PublisherAnalyticsLogo from '@/images/PubisherAnalyticslogo.png'
+import PublisherAnalyticsLogo from '../../public/assets/publisher-analytics-logo/PubisherAnalyticslogo.png'
 import Image from 'next/image'
 function QrCodeBorder(props) {
   return (
@@ -35,14 +35,19 @@ export function Footer() {
                     {/* <p>Publisher Analytics</p> */}
                   </div>
                 </Link>
-                <Link href="/">
-                  {/* <p className="text-base font-semibold">Publisher Analytics</p> */}
-                  <p className="mt-1 max-w-sm text-sm">
-                    On-page real-time analytics and A/B testing designed to
-                    significantly boost your site`s engagement rate. Proudly a
-                    part of the innovative NPAW analytics family.
-                  </p>
-                </Link>
+
+                {/* <p className="text-base font-semibold">Publisher Analytics</p> */}
+                <p className="mt-1 max-w-sm text-sm">
+                  On-page, real-time content analytics and A/B testing designed
+                  to boost your site’s engagement rate. A proud member of the{' '}
+                  <Link
+                    style={{ textDecoration: 'underline' }}
+                    href="https://npaw.com/"
+                  >
+                    <span> NPAW</span>
+                  </Link>{' '}
+                  analytics family.
+                </p>
               </div>
             </div>
             <nav className="mt-4 flex flex-col justify-between gap-2 px-10 lg:mt-10 lg:gap-8">
@@ -51,11 +56,11 @@ export function Footer() {
           </div>
           {/* <div className="group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
             <div className="relative flex h-24 w-24 flex-none items-center justify-center">
-              <QrCodeBorder className="absolute inset-0 h-full w-full stroke-gray-300 transition-colors group-hover:stroke-cyan-500" />
+              <QrCodeBorder className="absolute inset-0 h-full w-full stroke-gray-300 transition-colors group-hover:stroke-color2" />
               <Image src={qrCode} alt="" unoptimized />
             </div>
             <div className="ml-8 lg:w-64">
-              <p className="text-base font-semibold hover:text-[#06b6d4]">
+              <p className="text-base font-semibold hover:text-color2">
                 <Link href="#">
                   <span className="absolute inset-0 sm:rounded-2xl" />
                   Download the extension now

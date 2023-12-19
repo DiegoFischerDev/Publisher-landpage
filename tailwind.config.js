@@ -37,9 +37,10 @@ module.exports = {
         '4xl': '2rem',
         '5xl': '2.5rem',
       },
-      colors: ({ colors }) => ({
-        gray: colors.neutral,
-      }),
+      colors: {
+        color1: '#123456',
+        color2: '#008E96',
+      },
       fontFamily: {
         sans: 'var(--font-inter)',
       },

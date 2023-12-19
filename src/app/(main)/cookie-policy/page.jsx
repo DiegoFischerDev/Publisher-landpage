@@ -12,7 +12,7 @@ export default function CookiePolicy() {
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Cookie Policy
         </h1>
-        <p className="text-base font-semibold text-[#06b6d4]">
+        <p className="text-base font-semibold text-color2">
           Last Updated: 17-Nov-2022
         </p>
         <div className="mt-10">
@@ -61,7 +61,7 @@ export default function CookiePolicy() {
                   3. Types of Cookies we use
                 </strong>
               </p>
-              <p className="mt-5 text-[#06b6d4]">Necessary</p>
+              <p className="mt-5 text-color2">Necessary</p>
               <p>
                 Necessary cookies are required to enable the basic features of
                 this site, such as providing secure log-in or adjusting your
@@ -143,7 +143,7 @@ export default function CookiePolicy() {
                 </table>
                 <MobileScrollBar width={767} />
               </div>
-              <p className="mt-5 text-[#06b6d4]">Functional</p>
+              <p className="mt-5 text-color2">Functional</p>
               <p>
                 Functional cookies help perform certain functionalities like
                 sharing the content of the website on social media platforms,
@@ -237,7 +237,7 @@ export default function CookiePolicy() {
                 </table>
                 <MobileScrollBar width={767} />
               </div>
-              <p className="mt-5 text-[#06b6d4]">Analytics</p>
+              <p className="mt-5 text-color2">Analytics</p>
               <p>
                 Analytical cookies are used to understand how visitors interact
                 with the website. These cookies help provide information on
@@ -345,7 +345,7 @@ export default function CookiePolicy() {
                 <MobileScrollBar width={767} />
               </div>
 
-              <p className="mt-5 text-[#06b6d4]">Advertisement</p>
+              <p className="mt-5 text-color2">Advertisement</p>
               <p>
                 Advertisement cookies are used to provide visitors with
                 customized advertisements based on the pages you visited
@@ -420,7 +420,7 @@ export default function CookiePolicy() {
                 </table>
                 <MobileScrollBar width={767} />
               </div>
-              <p className="mt-5 text-[#06b6d4]">Others</p>
+              <p className="mt-5 text-color2">Others</p>
               <p>
                 Other uncategorized cookies are those that are being analyzed
                 and have not been classified into a category as yet.
